@@ -1,8 +1,13 @@
 import argparse
 from pathlib import Path
 
-from utils import load_config, save_text_report
-from runner import run_prompt
+try:
+    # Uruchamianie jako moduł pakietu: python -m src.main
+    from src.utils import load_config, save_text_report
+    from src.runner import run_prompt
+except ImportError:  # fallback, np. przy bezpośrednim uruchomieniu pliku
+    from utils import load_config, save_text_report
+    from runner import run_prompt
 
 
 def parse_args() -> argparse.Namespace:
