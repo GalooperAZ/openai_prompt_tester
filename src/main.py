@@ -35,7 +35,8 @@ def main() -> None:
     cfg = load_config("config/openai.yml")
 
     model_list = cfg.get("model_list", [])
-    temperature = cfg.get("temperature", 0.7)
+    default_temperature = cfg.get("temperature", 0.7)
+    model_temps = cfg.get("model_temps", {}) or {}
     output_dir = Path(cfg.get("output_dir", "results"))
     output_dir.mkdir(exist_ok=True)
 
@@ -48,15 +49,15 @@ def main() -> None:
     all_results = []
 
     for model in model_list:
-        print(f"\nModel: {model} ...", end="", flush=True)
+        temperature = model_temps.get(model, default_temperature)
+        print(f"\nModel: {model} (temperature={temperature}) ...", end="", flush=True)
         result = run_prompt(model, input_text, temperature)
         result["prompt_id"] = input_path.stem
+        result["temperature"] = temperature
         all_results.append(result)
         print(f" OK ({result['time_s']}s)" if result.get("time_s") else " X")
 
-    report_path = save_text_report(
-        all_results, str(input_path), output_dir, temperature
-    )
+    report_path = save_text_report(all_results, str(input_path), output_dir)
 
     total_tests = len(all_results)
     print(f"\nZakonczono {total_tests} testow (1 tekst × {len(model_list)} modeli).")

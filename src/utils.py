@@ -51,7 +51,7 @@ def _compute_basic_stats(result: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def save_text_report(
-    results: List[Dict[str, Any]], input_path: str, output_dir: Path, temperature: float
+    results: List[Dict[str, Any]], input_path: str, output_dir: Path
 ) -> Path:
     """Zapisuje czytelny raport .txt: blok na model + sekcja podsumowania na końcu."""
 
@@ -67,6 +67,7 @@ def save_text_report(
     for r in results:
         # Podstawowe dane
         model = r.get("model", "UNKNOWN")
+        temp = r.get("temperature")
         time_s = r.get("time_s")
         total_tokens = r.get("total_tokens")
         prompt_tokens = r.get("prompt_tokens")
@@ -90,7 +91,7 @@ def save_text_report(
 
         # Nagłówek 1
         header_1 = (
-            f"MODEL: {model} | params: temperature={temperature} | "
+            f"MODEL: {model} | params: temperature={temp if temp is not None else 'NA'} | "
             f"czas: {time_s if time_s is not None else 'NA'}s | {status}"
         )
 

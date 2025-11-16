@@ -1,0 +1,87 @@
+MODEL: gpt-4.1 | params: temperature=0.1 | czas: 3.71s | STATUS: OK
+długość: chars=412, lines=2 | tokens: total=3373 (prompt=3231, completion=142) | throughput: 909.16 tokens/s
+Unibep	Budowa przedszkola i żłobka w Mielnie
+Spółka zależna Unibepu, Unihouse, została wybrana przez Gminę Mielno jako wykonawca najkorzystniejszej oferty w przetargu na kompleksowe zaprojektowanie i budowę budynku przedszkola z oddziałem żłobkowym oraz drogi dojazdowej w Mielnie. Wartość oferty Unihouse wynosi około 17,3 mln zł brutto. Inwestycja zostanie zrealizowana w ciągu 22 miesięcy od podpisania umowy.
+
+MODEL: gpt-4.1-mini | params: temperature=0.1 | czas: 2.47s | STATUS: OK
+długość: chars=517, lines=2 | tokens: total=3385 (prompt=3231, completion=154) | throughput: 1370.45 tokens/s
+Unhouse	Wybór najkorzystniejszej oferty na budowę przedszkola z żłobkiem w Mielnie  
+Spółka Unhouse została wybrana jako najkorzystniejszy wykonawca zamówienia publicznego na budowę budynku przedszkola z oddziałem żłobkowym oraz drogi dojazdowej w Mielnie. Oferta spółki opiewa na około 17,3 mln zł brutto, a termin realizacji inwestycji wynosi 22 miesiące od podpisania umowy. Zamówienie obejmuje kompleksowe zaprojektowanie i wykonanie obiektu w technologii prefabrykacji modułowej wraz z infrastrukturą techniczną.
+
+MODEL: gpt-4.1-nano | params: temperature=0.1 | czas: 2.81s | STATUS: OK
+długość: chars=979, lines=3 | tokens: total=3542 (prompt=3231, completion=311) | throughput: 1260.5 tokens/s
+Unibep	Informuje o wyborze oferty UNIHOUSE w przetargu na budowę przedszkola i drogi w Mielnie
+
+Unibep S.A. poinformował, że 14 listopada 2025 r. Gmina Mielno wybrała jako najkorzystniejszą ofertę spółki zależnej UNIHOUSE na realizację zadania obejmującego budowę przedszkola z oddziałem żłobkowym oraz drogi dojazdowej w Mielnie. Przedmiotem zamówienia jest kompleksowe zaprojektowanie i wykonanie obiektu w technologii prefabrykacji modułowej wraz z infrastrukturą techniczną. Kryteria oceny ofert to cena (60%) oraz wydłużenie gwarancji (40%). Cena oferty UNIHOUSE wynosi około 17,3 mln zł brutto, czyli 14,1 mln zł netto. Termin realizacji to 22 miesiące od podpisania umowy. Projekt umowy przewiduje kary umowne za opóźnienia, wadliwe wykonanie oraz odstąpienie od umowy z winy wykonawcy, z łączną wysokością nie przekraczającą 30% wynagrodzenia brutto. W przypadku braku odwołań zostanie zawarta umowa na realizację inwestycji, o czym spółka poinformuje w odrębnym raporcie
+
+MODEL: gpt-4o | params: temperature=0.1 | czas: 3.99s | STATUS: OK
+długość: chars=518, lines=2 | tokens: total=3395 (prompt=3231, completion=164) | throughput: 850.88 tokens/s
+Unibep	Udział w przetargu na budowę w Mielnie
+Spółka Unibep poinformowała o wyborze oferty jej spółki zależnej, Unihouse, jako najkorzystniejszej w przetargu na budowę przedszkola z oddziałem żłobkowym oraz drogi dojazdowej w Mielnie. Projekt obejmuje kompleksowe zaprojektowanie i wykonanie budynku w technologii prefabrykacji modułowej. Cena oferty wynosi około 17,3 mln zł brutto. Realizacja inwestycji ma trwać 22 miesiące od podpisania umowy. Kryteria oceny ofert obejmowały cenę oraz wydłużenie okresu gwarancji.
+
+MODEL: gpt-4o-mini | params: temperature=0.1 | czas: 6.14s | STATUS: OK
+długość: chars=717, lines=2 | tokens: total=3456 (prompt=3231, completion=225) | throughput: 562.87 tokens/s
+Unibep	Decyzja o wyborze oferty Unihouse w przetargu na budowę przedszkola w Mielnie  
+Zarząd Unibep informuje, że w dniu 14 listopada 2025 roku Gmina Mielno wybrała jako najkorzystniejszą ofertę spółki zależnej Unihouse w postępowaniu o udzielenie zamówienia publicznego na budowę budynku przedszkola z oddziałem żłobkowym oraz drogi dojazdowej. Przedmiotem zamówienia jest kompleksowe zaprojektowanie oraz wykonanie budynku w technologii prefabrykacji modułowej. Cena oferty Unihouse wynosi około 17,3 mln zł brutto, a termin realizacji inwestycji to 22 miesiące od podpisania umowy. W przypadku braku zasadnych odwołań umowa na wykonanie inwestycji zostanie zawarta, o czym Emitent poinformuje w odrębnym raporcie.
+
+MODEL: gpt-5 | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=248, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+
+MODEL: gpt-5.1 | params: temperature=0.1 | czas: 2.15s | STATUS: OK
+długość: chars=674, lines=2 | tokens: total=3447 (prompt=3230, completion=217) | throughput: 1603.26 tokens/s
+Unibep	Wybór oferty na budowę przedszkola
+Unibep poinformował o wyborze przez Gminę Mielno jako najkorzystniejszej oferty spółki zależnej Unihouse w przetargu na budowę budynku przedszkola z oddziałem żłobkowym oraz drogi dojazdowej w Mielnie w województwie zachodniopomorskim. Przedmiot zamówienia obejmuje kompleksowe zaprojektowanie i wykonanie obiektu w technologii prefabrykacji modułowej wraz z infrastrukturą techniczną. Cena oferty Unihouse wynosi około 17,3 mln zł brutto, czyli około 14,1 mln zł netto. Termin realizacji inwestycji to 22 miesiące od dnia podpisania umowy. Zawarcie umowy nastąpi po upływie terminów na ewentualne odwołania dotyczące wyboru oferty.
+
+MODEL: gpt-5.1-chat-latest | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=248, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+
+MODEL: gpt-5-chat-latest | params: temperature=0.1 | czas: 1.74s | STATUS: OK
+długość: chars=558, lines=2 | tokens: total=3404 (prompt=3231, completion=173) | throughput: 1956.32 tokens/s
+Unibep	Wybór oferty Unihouse na budowę przedszkola w Mielnie  
+Unibep poinformował o wyborze przez Gminę Mielno oferty spółki zależnej Unihouse jako najkorzystniejszej w przetargu na budowę budynku przedszkola z oddziałem żłobkowym oraz drogi dojazdowej w Mielnie. Wartość oferty wynosi około 17,3 mln zł brutto, czyli około 14,1 mln zł netto. Inwestycja obejmuje kompleksowe zaprojektowanie i wykonanie obiektu w technologii prefabrykacji modułowej wraz z infrastrukturą techniczną. Termin realizacji przedsięwzięcia to 22 miesiące od dnia podpisania umowy.
+
+MODEL: gpt-5-mini | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=248, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+
+MODEL: gpt-5-nano | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=248, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+
+MODEL: o1-mini | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=193, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 404 - {'error': {'message': 'The model `o1-mini` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+
+MODEL: o3 | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=248, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+
+MODEL: o3-mini | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=211, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Unsupported parameter: 'temperature' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_parameter'}}
+
+MODEL: o4-mini | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=248, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+
+=== SUMMARY ===
+models_total: 15
+models_ok: 7
+models_error: 8
+time_min: 1.74s (model=gpt-5-chat-latest)
+time_max: 6.14s (model=gpt-4o-mini)
+time_avg: 3.29s
+tokens_min: 3373 (model=gpt-4.1)
+tokens_max: 3542 (model=gpt-4.1-nano)
+tokens_avg: 3428.86
+error_models:
+  - gpt-5
+  - gpt-5.1-chat-latest
+  - gpt-5-mini
+  - gpt-5-nano
+  - o1-mini
+  - o3
+  - o3-mini
+  - o4-mini
