@@ -35,8 +35,15 @@ def main() -> None:
     cfg = load_config("config/openai.yml")
 
     model_list = cfg.get("model_list", [])
-    default_temperature = cfg.get("temperature", 0.7)
     model_temps = cfg.get("model_temps", {}) or {}
+
+    # Walidacja: każdy model z listy musi mieć zdefiniowaną temperaturę
+    for m in model_list:
+        if m not in model_temps:
+            raise ValueError(
+                f"Brak wartości temperature dla modelu '{m}' w model_temps w config/openai.yml"
+            )
+
     output_dir = Path(cfg.get("output_dir", "results"))
     output_dir.mkdir(exist_ok=True)
 
@@ -49,18 +56,33 @@ def main() -> None:
     all_results = []
 
     for model in model_list:
-        temperature = model_temps.get(model, default_temperature)
-        print(f"\nModel: {model} (temperature={temperature}) ...", end="", flush=True)
-        result = run_prompt(model, input_text, temperature)
-        result["prompt_id"] = input_path.stem
-        result["temperature"] = temperature
-        all_results.append(result)
-        print(f" OK ({result['time_s']}s)" if result.get("time_s") else " X")
+        temperature = model_temps[model]
+        print(f"\nModel: {model} (temperature={temperature})")
+
+        # Dla każdego modelu wykonujemy to samo zapytanie w trzech planach rozliczeniowych:
+        # STANDARD -> service_tier=\"standard\"
+        # FLEX     -> service_tier=\"flex\"
+        # BATCH    -> service_tier=\"batch\"
+        plan_results = run_prompt(model, input_text, temperature)
+
+        for r in plan_results:
+            r["prompt_id"] = input_path.stem
+            r["temperature"] = temperature
+            all_results.append(r)
+
+            plan = r.get("billing_plan", "UNKNOWN")
+            time_s = r.get("time_s")
+            status = "OK" if time_s is not None else "ERROR"
+            time_str = f"{time_s}s" if time_s is not None else "NA"
+            print(f"  - plan={plan}: {status} (czas={time_str})")
 
     report_path = save_text_report(all_results, str(input_path), output_dir)
 
     total_tests = len(all_results)
-    print(f"\nZakonczono {total_tests} testow (1 tekst × {len(model_list)} modeli).")
+    print(
+        f"\nZakonczono {total_tests} testow "
+        f"(1 tekst × {len(model_list)} modeli × 3 plany rozliczeniowe)."
+    )
     print(f"Raport: {report_path}")
 
 

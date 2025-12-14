@@ -1,0 +1,65 @@
+MODEL: gpt-4.1 | params: temperature=0.1 | czas: 12.78s | STATUS: OK
+długość: chars=701, lines=2 | tokens: total=5730 (prompt=5492, completion=238) | throughput: 448.36 tokens/s
+Polwax	Rejestracja podwyższenia kapitału i zmian statutu
+Polwax poinformował o rejestracji przez Sąd Rejonowy w Rzeszowie podwyższenia kapitału zakładowego oraz zmian statutu spółki, uchwalonych przez Nadzwyczajne Walne Zgromadzenie 25 czerwca 2024 roku. Podwyższenie kapitału nastąpiło poprzez emisję 30,8 mln nowych akcji serii F o wartości nominalnej 5 gr każda i łącznej wartości nominalnej 1,54 mln zł, objętych w całości przez Mostostal Zabrze. W wyniku rejestracji kapitał zakładowy Polwaxu wzrósł z 1,55 mln zł do 3,09 mln zł i dzieli się obecnie na 61,7 mln akcji. Ogólna liczba głosów z wszystkich akcji po rejestracji wynosi 62.051.014. Jednocześnie zarejestrowano zmiany w statucie spółki.
+
+MODEL: gpt-4.1-mini | params: temperature=0.1 | czas: 3.6s | STATUS: OK
+długość: chars=414, lines=2 | tokens: total=5636 (prompt=5492, completion=144) | throughput: 1565.56 tokens/s
+Polwax	Rejestracja podwyższenia kapitału i zmiany statutu  
+Polwax poinformował o rejestracji przez sąd podwyższenia kapitału zakładowego spółki z 1,5 mln zł do 3,1 mln zł poprzez emisję 30,8 mln akcji serii F o wartości nominalnej 5 gr każda, które objęła spółka Mostostal Zabrze. Wraz z podwyższeniem kapitału zarejestrowano zmiany w statucie spółki, które odzwierciedlają nową strukturę kapitału i liczbę akcji.
+
+MODEL: gpt-4.1-nano | params: temperature=0.1 | czas: 2.37s | STATUS: OK
+długość: chars=697, lines=2 | tokens: total=5740 (prompt=5492, completion=248) | throughput: 2421.94 tokens/s
+Polwax	Rejestracja przez sąd podwyższenia kapitału zakładowego oraz zmiany Statutu Spółki
+Polwax poinformował, iż w dniu 9 października 2024 roku Sąd Rejonowy w Rzeszowie zarejestrował podwyższenie kapitału zakładowego oraz zmiany Statutu Spółki uchwalone na podstawie uchwały z 25 czerwca 2024 roku. Podwyższenie kapitału nastąpiło poprzez emisję 30,8 mln akcji serii F o wartości nominalnej 5 groszy każda, objętych przez Mostostal Zabrze w całości w drodze subskrypcji prywatnej. W wyniku tego kapitał zakładowy wzrósł z 1,545 mln zł do 3,085 mln zł, dzieląc się na 61,7 mln akcji. Zmiany w Statucie obejmują m.in. nową treść § 4 ust. 1, potwierdzającą aktualny stan kapitału i struktury akcji.
+
+MODEL: gpt-4o | params: temperature=0.1 | czas: 3.6s | STATUS: OK
+długość: chars=534, lines=3 | tokens: total=5679 (prompt=5492, completion=187) | throughput: 1577.5 tokens/s
+Polwax	Podwyższenie kapitału zakładowego
+
+Spółka Polwax poinformowała o rejestracji przez Sąd Rejonowy w Rzeszowie podwyższenia kapitału zakładowego oraz zmian w Statucie Spółki. Podwyższenie kapitału nastąpiło poprzez emisję 30.800.000 nowych akcji serii F, które zostały objęte przez Mostostal Zabrze. W wyniku rejestracji kapitał zakładowy wzrósł z 1.545.000 zł do 3.085.000 zł. Zmiany w Statucie zostały przyjęte przez Nadzwyczajne Walne Zgromadzenie Akcjonariuszy. Ogólna liczba głosów z wszystkich akcji wynosi teraz 62.051.014.
+
+MODEL: gpt-4o-mini | params: temperature=0.1 | czas: 5.82s | STATUS: OK
+długość: chars=578, lines=1 | tokens: total=5694 (prompt=5492, completion=202) | throughput: 978.35 tokens/s
+Polwax	Rejestracja podwyższenia kapitału zakładowego oraz zmiany Statutu Spółki. Spółka Polwax informuje o rejestracji przez Sąd Rejonowy w Rzeszowie podwyższenia kapitału zakładowego oraz zmiany Statutu, uchwalonych na podstawie Uchwały Nr 4 z dnia 25 czerwca 2024 roku. Kapitał zakładowy został podwyższony z 1.545.000,00 zł do 3.085.000,00 zł poprzez emisję 30.800.000 nowych akcji serii F, które zostały objęte przez Mostostal Zabrze. Po rejestracji ogólna liczba głosów wynosi 62.051.014. Zarejestrowano również zmiany w Statucie Spółki, przyjęte na podstawie Uchwały Nr 4.
+
+MODEL: gpt-5 | params: temperature=1.0 | czas: 32.92s | STATUS: OK
+długość: chars=445, lines=2 | tokens: total=7967 (prompt=5491, completion=2476) | throughput: 242.01 tokens/s
+Polwax	Rejestracja podwyższenia kapitału i statutu
+Polwax poinformował o rejestracji przez sąd podwyższenia kapitału zakładowego oraz zmian statutu. Podwyższenie nastąpiło poprzez emisję 30.8 mln akcji serii F w subskrypcji prywatnej, objętych w całości przez Mostostal Zabrze. Kapitał zakładowy wzrósł z 1.5 mln zł do 3.1 mln zł, czyli o 1.5 mln zł. Po rejestracji kapitał dzieli się na 61.7 mln akcji, a łączna liczba głosów wynosi 62.051.014.
+
+MODEL: gpt-5.1 | params: temperature=0.1 | czas: 5.54s | STATUS: OK
+długość: chars=853, lines=2 | tokens: total=5789 (prompt=5491, completion=298) | throughput: 1044.95 tokens/s
+Polwax	Rejestracja podwyższenia kapitału zakładowego
+Polwax poinformował o rejestracji przez Sąd Rejonowy w Rzeszowie podwyższenia kapitału zakładowego oraz zmian Statutu spółki uchwalonych 25 czerwca 2024 roku. Podwyższenie kapitału nastąpiło poprzez emisję 30,8 mln nowych akcji zwykłych na okaziciela serii F o wartości nominalnej 0,05 zł każda i łącznej wartości nominalnej 1,5 mln zł. Wszystkie akcje serii F zostały objęte w drodze subskrypcji prywatnej przez Mostostal Zabrze. W wyniku rejestracji kapitał zakładowy wzrósł z 1,5 mln zł do 3,1 mln zł i dzieli się na 61,7 mln akcji o wartości nominalnej 0,05 zł każda. Ogólna liczba głosów z wszystkich akcji spółki po rejestracji podwyższenia kapitału wynosi 62.051.014. Jednocześnie zarejestrowano zmianę § 4 ust. 1 Statutu dostosowującą jego treść do nowej wysokości kapitału i struktury akcji.
+
+MODEL: gpt-5.1-chat-latest | params: temperature=1.0 | czas: 3.23s | STATUS: OK
+długość: chars=545, lines=2 | tokens: total=5747 (prompt=5491, completion=256) | throughput: 1779.26 tokens/s
+Polwax	Podwyższenie kapitału i zmiana statutu
+Polwax poinformował o rejestracji podwyższenia kapitału zakładowego oraz zmian statutu dokonanych przez sąd. Kapitał został zwiększony o 1.54 mln zł do 3.085 mln zł poprzez emisję 30.8 mln akcji serii F o wartości nominalnej 5 gr, które w całości objął Mostostal Zabrze. Po rejestracji kapitał zakładowy dzieli się na 61.7 mln akcji, a ogólna liczba głosów wynosi 62.051.014. Jednocześnie zarejestrowano zmiany statutu wynikające z uchwały Nadzwyczajnego Walnego Zgromadzenia z 25 czerwca 2024 roku.
+
+MODEL: gpt-5-chat-latest | params: temperature=0.1 | czas: 2.35s | STATUS: OK
+długość: chars=622, lines=2 | tokens: total=5706 (prompt=5492, completion=214) | throughput: 2428.09 tokens/s
+Polwax	Rejestracja podwyższenia kapitału i zmian statutu  
+Polwax poinformował o rejestracji przez Sąd Rejonowy w Rzeszowie podwyższenia kapitału zakładowego oraz zmian statutu spółki. Kapitał został podwyższony z 1.545 mln zł do 3.085 mln zł poprzez emisję 30.8 mln akcji serii F o wartości nominalnej 5 gr każda. Wszystkie akcje serii F zostały objęte przez Mostostal Zabrze w ramach subskrypcji prywatnej. Po rejestracji kapitał zakładowy Polwaxu dzieli się na 61.7 mln akcji, a łączna liczba głosów wynosi 62.051.014. Zmiany w statucie spółki zostały przyjęte przez Nadzwyczajne Walne Zgromadzenie w czerwcu 2024 roku.
+
+MODEL: gpt-5-mini | params: temperature=1.0 | czas: 31.91s | STATUS: OK
+długość: chars=636, lines=2 | tokens: total=8158 (prompt=5491, completion=2667) | throughput: 255.66 tokens/s
+Polwax	Podwyższenie kapitału i zmiana statutu
+Polwax informuje, że Sąd Rejonowy w Rzeszowie zarejestrował podwyższenie kapitału zakładowego spółki oraz zmianę Statutu Spółki wynikające z Uchwały Nr 4 Nadzwyczajnego Walnego Zgromadzenia z dnia 25 czerwca 2024 roku. Podwyższenie nastąpiło poprzez emisję 30.800.000 nowych akcji zwykłych na okaziciela serii F o wartości nominalnej 5 gr każda, o łącznej wartości nominalnej 1.5 mln zł, które zostały objęte w całości przez Mostostal Zabrze. W wyniku rejestracji kapitał zakładowy wzrósł z 1.5 mln zł do 3.1 mln zł, łączna liczba akcji wynosi 61.700.000, a łączna liczba głosów 62.051.014.
+
+MODEL: gpt-5-nano | params: temperature=1.0 | czas: 51.57s | STATUS: OK
+długość: chars=945, lines=2 | tokens: total=14535 (prompt=5491, completion=9044) | throughput: 281.85 tokens/s
+Polwax	Podwyższenie kapitału i zmiana Statutu
+Polwax informuje iż w dniu 09 października 2024 roku Sąd Rejonowy w Rzeszowie zarejestrował podwyższenie kapitału zakładowego Spółki oraz zmiany Statutu uchwalone przez Nadzw. Walne Zgromadzenie Akcjonariuszy w dniu 25 czerwca 2024 roku. Podwyższenie kapitału nastąpiło poprzez emisję 30.800.000 akcji serii F o wartości nominalnej 0,05 zł każda, łączna wartość nominalna 1,54 mln zł, w drodze subskrypcji prywatnej z wyłączeniem prawa poboru i objęte w całości przez Mostostal Zabrze. Kapitał zakładowy po rejestracji wynosi 3,085 mln zł i dzieli się na 61.700.000 akcji o wartości nominalnej 0,05 zł. Zmiana Statutu obejmuje zmianę § 4 ust. 1 przy czym nie uwzględnia ona dokonanej przez Zarząd 17 września 2024 roku zamiany 1.198.213 sztuk akcji imiennych serii C uprzywilejowanych co do głosu na akcje serii C zwykłe. Ogólna liczba głosów z wyemitowanych akcji po podwyższeniu wynosi 62.051.014.
+
+=== SUMMARY ===
+models_total: 11
+models_ok: 11
+models_error: 0
+time_min: 2.35s (model=gpt-5-chat-latest)
+time_max: 51.57s (model=gpt-5-nano)
+time_avg: 14.15s
+tokens_min: 5636 (model=gpt-4.1-mini)
+tokens_max: 14535 (model=gpt-5-nano)
+tokens_avg: 6943.73

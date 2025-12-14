@@ -1,0 +1,226 @@
+MODEL: gpt-4.1 | PLAN: STANDARD (service_tier=standard) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-4.1 | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=142, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Invalid service_tier argument', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-4.1 | PLAN: BATCH (service_tier=batch) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-4.1-mini | PLAN: STANDARD (service_tier=standard) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-4.1-mini | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=142, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Invalid service_tier argument', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-4.1-mini | PLAN: BATCH (service_tier=batch) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-4.1-nano | PLAN: STANDARD (service_tier=standard) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-4.1-nano | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=142, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Invalid service_tier argument', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-4.1-nano | PLAN: BATCH (service_tier=batch) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-4o | PLAN: STANDARD (service_tier=standard) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-4o | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=142, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Invalid service_tier argument', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-4o | PLAN: BATCH (service_tier=batch) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-4o-mini | PLAN: STANDARD (service_tier=standard) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-4o-mini | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=142, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Invalid service_tier argument', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-4o-mini | PLAN: BATCH (service_tier=batch) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5 | PLAN: STANDARD (service_tier=standard) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5 | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: 27.57s | STATUS: OK
+długość: chars=973, lines=2 | tokens: total=8406 (prompt=4423, completion=3983) | throughput: 304.9 tokens/s
+cyber_Folks	Umowa inwestycyjna i umowa wspólników
+Spółka cyber_Folks zawarła umowę inwestycyjną oraz umowę wspólników dotyczącą inwestycji realizowanej poprzez Pixel. Po transakcji cyber_Folks ma posiadać 79% udziałów w Pixel, fundacja rodzinna Mikołaja Króla 10,5%, a fundacja rodzinna Damiana Murawskiego 10,5%. Pixel nabędzie 100% PrestaShop, 100% Sylius i 100% Bitbag. cyber_Folks obejmie w Pixel 54% nowych udziałów za 38,3 mln euro oraz 25% nowych udziałów za 17,7 mln euro, przy czym druga transza może mieć formę pożyczki konwertowalnej na udziały, jeśli przejęcie PrestaShop nastąpi przed uzyskaniem zgody Prezesa UOKiK. FRMK i FRDM obejmą po 10,5% w Pixel, wnosząc aportem 60% udziałów w Sylius i 100% w Bitbag. Umowa wspólników reguluje ład korporacyjny, współpracę z Sylius, Bitbag i PrestaShop, ograniczenia w zbywaniu udziałów oraz zobowiązania zarządcze i zakaz konkurencji dla Mikołaja Króla i Damiana Murawskiego i wejdzie w życie po zamknięciu transakcji.
+
+MODEL: gpt-5 | PLAN: BATCH (service_tier=batch) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5.1 | PLAN: STANDARD (service_tier=standard) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5.1 | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: 10.5s | STATUS: OK
+długość: chars=1352, lines=2 | tokens: total=4865 (prompt=4423, completion=442) | throughput: 463.33 tokens/s
+cyber_Folks	Zawarcie umowy inwestycyjnej dotyczącej Pixel  
+Cyber_Folks zawarł umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi, spółkami Sylius, Bitbag oraz cyber_Pixel, określającą zasady wspólnej inwestycji prowadzonej poprzez Pixel. W wyniku transakcji cyber_Folks ma posiadać 79 proc. udziałów w Pixel, fundacja rodzinna Mikołaja Króla 10,5 proc., a fundacja rodzinna Damiana Murawskiego 10,5 proc. Pixel ma nabyć 100 proc. akcji PrestaShop z siedzibą w Paryżu oraz 100 proc. udziałów w Sylius i Bitbag. Cyber_Folks obejmie łącznie 79 proc. nowych udziałów w Pixel w zamian za wkład pieniężny w łącznej kwocie 56.000.000 euro, przy czym część tej inwestycji może zostać zrealizowana w formie pożyczki konwertowalnej na udziały w Pixel w zależności od momentu uzyskania zgody Prezesa UOKiK na koncentrację. Fundacje rodzinne Mikołaja Króla i Damiana Murawskiego obejmą po 10,5 proc. udziałów w Pixel w zamian za wkład niepieniężny w postaci udziałów w Sylius i Bitbag. Strony zawarły także umowę wspólników regulującą ład korporacyjny w Pixel, zasady współpracy z Sylius, Bitbag i PrestaShop, ograniczenia w zbywaniu udziałów w Pixel oraz zobowiązania Mikołaja Króla i Damiana Murawskiego do zarządzania Pixel i zakazu konkurencji, która wejdzie w życie po zamknięciu transakcji przewidzianej umową inwestycyjną.
+
+MODEL: gpt-5.1 | PLAN: BATCH (service_tier=batch) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5.1-chat-latest | PLAN: STANDARD (service_tier=standard) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5.1-chat-latest | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=150, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Flex is not available for this model.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-5.1-chat-latest | PLAN: BATCH (service_tier=batch) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5-chat-latest | PLAN: STANDARD (service_tier=standard) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5-chat-latest | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=150, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Flex is not available for this model.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-5-chat-latest | PLAN: BATCH (service_tier=batch) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5-mini | PLAN: STANDARD (service_tier=standard) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5-mini | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: 20.83s | STATUS: OK
+długość: chars=1150, lines=2 | tokens: total=7113 (prompt=4423, completion=2690) | throughput: 341.48 tokens/s
+cyber_Folks	Inwestycja w Pixel i przejęcia
+cyber_Folks zawarła 11 grudnia 2025 r. umowę inwestycyjną oraz umowę wspólników z Mikołajem Królem, Damianem Murawskim, fundacją rodzinną MK, fundacją rodzinną DM, Sylius, Bitbag oraz cyber_Pixel na warunkach współpracy przy inwestycji prowadzonej przez Pixel. Zgodnie z umową cyber_Folks obejmie 79% udziałów w Pixel poprzez objęcie 54% nowych udziałów za wkład pieniężny 38.3 mln euro oraz 25% nowych udziałów za wkład pieniężny 17.7 mln euro, przy czym inwestycja w części może zostać zrealizowana jako pożyczka konwertowalna na udziały. FRMK i FRDM obejmą po 10.5% udziałów w Pixel w zamian za wkład rzeczowy obejmujący 60% udziałów w Sylius oraz 100% udziałów w Bitbag. Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu oraz 100% udziałów w Sylius i Bitbag, a realizacja nabycia PrestaShop wymaga zgody Prezesa Urzędu Ochrony Konkurencji i Konsumentów. Umowa wspólników ustala zasady ładu korporacyjnego, współpracy, ograniczeń rozporządzania udziałami oraz zobowiązania Mikołaja Króla i Damiana Murawskiego do zarządzania Pixel i zakaz konkurencji, które wejdą w życie po zamknięciu transakcji.
+
+MODEL: gpt-5-mini | PLAN: BATCH (service_tier=batch) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5-nano | PLAN: STANDARD (service_tier=standard) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5-nano | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: 67.92s | STATUS: OK
+długość: chars=1775, lines=3 | tokens: total=17987 (prompt=4423, completion=13564) | throughput: 264.83 tokens/s
+Cyber_folks	Zawarcie Umowy inwestycyjnej
+
+Cyber_folks informuje, że w dniu 11 grudnia 2025 r. Spółka zawarła umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, fundacją rodzinną MK, fundacją rodzinną DM, Sylius sp. z o.o., Bitbag sp. z o.o. i Pixel sp. z o.o. dotyczącą wspólnej inwestycji prowadzanej poprzez Pixel. Przedmiot Umowy Inwestycyjnej obejmuje objęcie udziałów w Pixel w następujący sposób: Cyber_folks obejmie 54% nowych udziałów w Pixel w zamian za wkład pieniężny w wysokości 38,3 mln euro oraz 25% nowych udziałów w Pixel w zamian za wkład pieniężny w wysokości 17,7 mln euro, przy czym inwestycja Spółki w tym zakresie może również nastąpić w formie udzielenia pożyczki konwertowalnej na udziały Pixel. FRMK oraz FRDM, będący jedynymi udziałowcami w Sylius oraz Bitbag, obejmą po 60% udziałów w Sylius i 100% udziałów w Bitbag w zamian za 10,5% udziałów w Pixel. Pixel zobowiązany jest do nabycia 100% akcji PrestaShop, a Transakcja FR wymaga zgody Prezesa Urzędu Ochrony Konkurencji i Konsumentów na koncentrację, czyli Zgody Antymonopolowej. W przypadku gdy nabycie akcji PrestaShop nastąpi po wydaniu Zgody Antymonopolowej inwestycja Emitenta w Pixel w kwocie 17,7 mln euro nastąpi w formie wkładu pieniężnego w zamian za objęcie udziałów, natomiast jeżeli nabycie nastąpi przed wydaniem Zgody Antymonopolowej inwestycja ta nastąpi w formie pożyczki konwertowalnej. Strony zawarły umowę wspólników SHA której celem jest ustalenie zasad ładu korporacyjnego w Pixel oraz zasad współpracy między Spółką a Sylius Bitbag i PrestaShop oraz ograniczenia rozporządzania udziałami i zakazu konkurencji dla MK i DM. SHA wejdzie w życie z chwilą przeprowadzenia wszystkich czynności zamknięcia Transakcji i zawiera postanowienia typowe dla tego rodzaju umów.
+
+MODEL: gpt-5-nano | PLAN: BATCH (service_tier=batch) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5.2-chat-latest | PLAN: STANDARD (service_tier=standard) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5.2-chat-latest | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=150, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Flex is not available for this model.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-5.2-chat-latest | PLAN: BATCH (service_tier=batch) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5.2 | PLAN: STANDARD (service_tier=standard) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5.2 | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: 4.31s | STATUS: OK
+długość: chars=1108, lines=2 | tokens: total=4784 (prompt=4423, completion=361) | throughput: 1109.98 tokens/s
+cyber_Folks	Umowa inwestycyjna i udziałowców
+cyber_Folks zawarł 11 grudnia 2025 r. umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi oraz spółkami Sylius, Bitbag i cyber_Pixel dotyczącą wspólnej inwestycji prowadzonej poprzez cyber_Pixel. Transakcja zakłada, że cyber_Folks będzie posiadać 79% udziałów w cyber_Pixel, a fundacje rodzinne Mikołaja Króla i Damiana Murawskiego po 10,5%. cyber_Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu oraz 100% udziałów w Sylius i Bitbag. cyber_Folks obejmie 54% nowych udziałów w cyber_Pixel za 38,3 mln euro oraz 25% nowych udziałów za 17,7 mln euro, przy czym druga część inwestycji może zostać zrealizowana jako pożyczka konwertowalna na udziały w zależności od terminu nabycia PrestaShop względem uzyskania zgody Prezesa UOKiK na koncentrację. Strony zawarły także umowę wspólników regulującą ład korporacyjny w cyber_Pixel, zasady współpracy z Sylius, Bitbag i PrestaShop, ograniczenia w zbywaniu udziałów oraz zobowiązania do zarządzania cyber_Pixel i zakazu konkurencji, która wejdzie w życie po zamknięciu transakcji.
+
+MODEL: gpt-5.2 | PLAN: BATCH (service_tier=batch) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5.2-2025-12-11 | PLAN: STANDARD (service_tier=standard) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=225, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'standard'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+MODEL: gpt-5.2-2025-12-11 | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: 4.57s | STATUS: OK
+długość: chars=1117, lines=2 | tokens: total=4786 (prompt=4423, completion=363) | throughput: 1047.26 tokens/s
+cyber_Folks	Umowa inwestycyjna i udziałowców
+cyber_Folks zawarł 11 grudnia 2025 r. umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi oraz ze spółkami Sylius, Bitbag i cyber_Pixel, określającą zasady współpracy przy wspólnej inwestycji realizowanej poprzez cyber_Pixel. W wyniku planowanej transakcji cyber_Folks ma posiadać 79% udziałów w cyber_Pixel, a fundacje rodzinne MK i DM po 10,5% udziałów. cyber_Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu oraz 100% udziałów Sylius i Bitbag. cyber_Folks ma objąć 54% nowych udziałów w cyber_Pixel za 38,3 mln euro oraz 25% nowych udziałów za 17,7 mln euro, przy czym druga część inwestycji może zostać zrealizowana jako pożyczka konwertowalna, jeśli nabycie akcji PrestaShop nastąpi przed uzyskaniem zgody Prezesa UOKiK na koncentrację. Strony zawarły także umowę wspólników regulującą ład korporacyjny w cyber_Pixel, zasady współpracy z Sylius, Bitbag i PrestaShop, ograniczenia zbywania udziałów oraz zobowiązania MK i DM do zarządzania cyber_Pixel wraz z zakazem konkurencji, która wejdzie w życie po zamknięciu transakcji.
+
+MODEL: gpt-5.2-2025-12-11 | PLAN: BATCH (service_tier=batch) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=222, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': "Invalid value: 'batch'. Supported values are: 'auto', 'default', 'flex', and 'priority'.", 'type': 'invalid_request_error', 'param': 'service_tier', 'code': 'invalid_value'}}
+
+=== SUMMARY ===
+models_total: 42
+models_ok: 6
+models_error: 36
+time_min: 4.31s (model=gpt-5.2, plan=FLEX)
+time_max: 67.92s (model=gpt-5-nano, plan=FLEX)
+time_avg: 22.62s
+tokens_min: 4784 (model=gpt-5.2, plan=FLEX)
+tokens_max: 17987 (model=gpt-5-nano, plan=FLEX)
+tokens_avg: 7990.17
+plans_summary:
+  - BATCH: total=14, ok=0, error=14
+  - FLEX: total=14, ok=6, error=8
+  - STANDARD: total=14, ok=0, error=14
+error_models:
+  - model=gpt-4.1, plan=STANDARD
+  - model=gpt-4.1, plan=FLEX
+  - model=gpt-4.1, plan=BATCH
+  - model=gpt-4.1-mini, plan=STANDARD
+  - model=gpt-4.1-mini, plan=FLEX
+  - model=gpt-4.1-mini, plan=BATCH
+  - model=gpt-4.1-nano, plan=STANDARD
+  - model=gpt-4.1-nano, plan=FLEX
+  - model=gpt-4.1-nano, plan=BATCH
+  - model=gpt-4o, plan=STANDARD
+  - model=gpt-4o, plan=FLEX
+  - model=gpt-4o, plan=BATCH
+  - model=gpt-4o-mini, plan=STANDARD
+  - model=gpt-4o-mini, plan=FLEX
+  - model=gpt-4o-mini, plan=BATCH
+  - model=gpt-5, plan=STANDARD
+  - model=gpt-5, plan=BATCH
+  - model=gpt-5.1, plan=STANDARD
+  - model=gpt-5.1, plan=BATCH
+  - model=gpt-5.1-chat-latest, plan=STANDARD
+  - model=gpt-5.1-chat-latest, plan=FLEX
+  - model=gpt-5.1-chat-latest, plan=BATCH
+  - model=gpt-5-chat-latest, plan=STANDARD
+  - model=gpt-5-chat-latest, plan=FLEX
+  - model=gpt-5-chat-latest, plan=BATCH
+  - model=gpt-5-mini, plan=STANDARD
+  - model=gpt-5-mini, plan=BATCH
+  - model=gpt-5-nano, plan=STANDARD
+  - model=gpt-5-nano, plan=BATCH
+  - model=gpt-5.2-chat-latest, plan=STANDARD
+  - model=gpt-5.2-chat-latest, plan=FLEX
+  - model=gpt-5.2-chat-latest, plan=BATCH
+  - model=gpt-5.2, plan=STANDARD
+  - model=gpt-5.2, plan=BATCH
+  - model=gpt-5.2-2025-12-11, plan=STANDARD
+  - model=gpt-5.2-2025-12-11, plan=BATCH

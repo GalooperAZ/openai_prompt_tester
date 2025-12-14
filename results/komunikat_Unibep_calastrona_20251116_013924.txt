@@ -1,0 +1,65 @@
+MODEL: gpt-4.1 | params: temperature=0.1 | czas: 5.7s | STATUS: OK
+długość: chars=436, lines=2 | tokens: total=4465 (prompt=4326, completion=139) | throughput: 783.33 tokens/s
+Unibep	Budowa przedszkola i drogi w Mielnie  
+Unibep poinformował o wyborze przez Gminę Mielno najkorzystniejszej oferty spółki zależnej Unihouse na realizację kompleksowego projektu obejmującego zaprojektowanie i wykonanie budynku przedszkola z oddziałem żłobkowym oraz budowę drogi dojazdowej w Mielnie. Wartość oferty Unihouse wynosi około 17,3 mln zł brutto. Inwestycja zostanie zrealizowana w ciągu 22 miesięcy od podpisania umowy.
+
+MODEL: gpt-4.1-mini | params: temperature=0.1 | czas: 2.64s | STATUS: OK
+długość: chars=393, lines=2 | tokens: total=4452 (prompt=4326, completion=126) | throughput: 1686.36 tokens/s
+Unibep	Wybór najkorzystniejszej oferty Unihouse na budowę przedszkola  
+Unibep informuje, że Gmina Mielno wybrała jako najkorzystniejszą ofertę spółki zależnej Unihouse na zaprojektowanie i wykonanie budynku przedszkola z oddziałem żłobkowym oraz drogi dojazdowej w Mielnie. Cena oferty Unihouse wynosi około 17,3 mln zł brutto. Termin realizacji inwestycji to 22 miesiące od podpisania umowy.
+
+MODEL: gpt-4.1-nano | params: temperature=0.1 | czas: 1.68s | STATUS: OK
+długość: chars=702, lines=2 | tokens: total=4563 (prompt=4326, completion=237) | throughput: 2716.07 tokens/s
+Unibep	Wybrano ofertę UNIHOUSE w przetargu na budowę przedszkola i drogi w Mielnie  
+Unibep S.A. poinformował, że 14 listopada 2025 r. Gmina Mielno wybrała jako najkorzystniejszą ofertę spółki zależnej UNIHOUSE na realizację inwestycji obejmującej budowę przedszkola z oddziałem żłobkowym oraz drogi dojazdowej w Mielnie w województwie zachodniopomorskim. Oferta opiewa na około 17,3 mln zł brutto, a termin realizacji to 22 miesiące od podpisania umowy. W projekcie przewidziano kary umowne za opóźnienia i inne naruszenia, których łączna wysokość nie przekroczy 30% wynagrodzenia brutto. W przypadku braku odwołań, spółka zawrze umowę na realizację inwestycji i poinformuje o tym w odrębnym raporcie.
+
+MODEL: gpt-4o | params: temperature=0.1 | czas: 2.71s | STATUS: OK
+długość: chars=540, lines=2 | tokens: total=4489 (prompt=4326, completion=163) | throughput: 1656.46 tokens/s
+Unibep	Oferta na budowę przedszkola w Mielnie  
+Spółka Unibep poinformowała o wyborze oferty jej spółki zależnej Unihouse jako najkorzystniejszej w przetargu na budowę budynku przedszkola z oddziałem żłobkowym w Mielnie. Projekt obejmuje kompleksowe zaprojektowanie i wykonanie budynku w technologii prefabrykacji modułowej wraz z infrastrukturą techniczną. Cena oferty wynosi około 17,3 mln zł brutto, a termin realizacji inwestycji to 22 miesiące od podpisania umowy. Kryteria oceny ofert obejmowały cenę oraz wydłużenie okresu gwarancji.
+
+MODEL: gpt-4o-mini | params: temperature=0.1 | czas: 3.69s | STATUS: OK
+długość: chars=473, lines=2 | tokens: total=4474 (prompt=4326, completion=148) | throughput: 1212.47 tokens/s
+Unibep		Wybór oferty Unihouse w przetargu na budowę przedszkola w Mielnie  
+Zarząd Unibep informuje o wyborze oferty spółki zależnej Unihouse jako najkorzystniejszej w postępowaniu na budowę przedszkola z oddziałem żłobkowym w Mielnie. Oferta Unihouse opiewa na kwotę około 17,3 mln zł brutto, a termin realizacji inwestycji wynosi 22 miesiące od podpisania umowy. Projekt przewiduje kompleksowe zaprojektowanie oraz wykonanie budynku w technologii prefabrykacji modułowej.
+
+MODEL: gpt-5 | params: temperature=1.0 | czas: 62.55s | STATUS: OK
+długość: chars=441, lines=2 | tokens: total=6664 (prompt=4325, completion=2339) | throughput: 106.54 tokens/s
+Unihouse	Najkorzystniejsza oferta na przedszkole w Mielnie
+Unihouse została wybrana jako najkorzystniejsza oferta w postępowaniu Gminy Mielno na zaprojektowanie i budowę budynku przedszkola z oddziałem żłobkowym w technologii modułowej wraz z infrastrukturą. Wartość oferty wynosi 17,3 mln zł brutto, czyli 14,1 mln zł netto. Realizacja ma potrwać 22 miesiące od dnia podpisania umowy. Po upływie terminu odwołań przewidziano zawarcie umowy.
+
+MODEL: gpt-5.1 | params: temperature=0.1 | czas: 5.22s | STATUS: OK
+długość: chars=659, lines=2 | tokens: total=4536 (prompt=4325, completion=211) | throughput: 868.97 tokens/s
+Unibep	Wybór oferty na budowę przedszkola w Mielnie
+Unibep poinformował o wyborze przez Gminę Mielno jako najkorzystniejszej oferty złożonej przez spółkę zależną Unihouse w przetargu na budowę budynku przedszkola z oddziałem żłobkowym w Mielnie wraz z infrastrukturą techniczną. Przedmiot zamówienia obejmuje kompleksowe zaprojektowanie i wykonanie obiektu w technologii prefabrykacji modułowej. Cena oferty Unihouse wynosi około 17,3 mln zł brutto, czyli około 14,1 mln zł netto. Termin realizacji inwestycji został określony na 22 miesiące od dnia podpisania umowy. Zawarcie umowy nastąpi po upływie terminów na ewentualne odwołania dotyczące wyboru oferty.
+
+MODEL: gpt-5.1-chat-latest | params: temperature=1.0 | czas: 2.43s | STATUS: OK
+długość: chars=447, lines=2 | tokens: total=4543 (prompt=4325, completion=218) | throughput: 1869.55 tokens/s
+Unibep	Oferta na budowę przedszkola
+Unibep poinformował o wyborze przez Gminę Mielno jako najkorzystniejszej oferty złożonej przez spółkę zależną Unihouse na realizację budowy budynku przedszkola z oddziałem żłobkowym wraz z infrastrukturą oraz drogi dojazdowej w Mielnie. Wartość oferty wynosi 17,3 mln zł brutto. Realizacja inwestycji ma potrwać 22 miesiące od podpisania umowy. Zawarcie umowy nastąpi po upływie terminu na ewentualne odwołania.
+
+MODEL: gpt-5-chat-latest | params: temperature=0.1 | czas: 1.82s | STATUS: OK
+długość: chars=543, lines=2 | tokens: total=4495 (prompt=4326, completion=169) | throughput: 2469.78 tokens/s
+Unibep	Wybór oferty spółki zależnej w Mielnie  
+Unibep poinformował o wyborze przez Gminę Mielno oferty spółki zależnej Unihouse jako najkorzystniejszej w przetargu na budowę budynku przedszkola z oddziałem żłobkowym oraz drogi dojazdowej w Mielnie. Wartość oferty wynosi około 17,3 mln zł brutto, czyli około 14,1 mln zł netto. Inwestycja obejmuje kompleksowe zaprojektowanie i wykonanie obiektu w technologii prefabrykacji modułowej wraz z infrastrukturą techniczną. Termin realizacji przedsięwzięcia to 22 miesiące od dnia podpisania umowy.
+
+MODEL: gpt-5-mini | params: temperature=1.0 | czas: 46.0s | STATUS: OK
+długość: chars=613, lines=2 | tokens: total=6700 (prompt=4325, completion=2375) | throughput: 145.65 tokens/s
+Unibep	Wybór oferty Unihouse w Mielnie
+Unibep informuje, że Gmina Mielno w postępowaniu o udzielenie zamówienia publicznego wybrała jako najkorzystniejszą ofertę spółki zależnej Unihouse na realizację inwestycji polegającej na budowie budynku przedszkola z oddziałem żłobkowym oraz drogi dojazdowej w Mielnie. Przedmiot zamówienia obejmuje kompleksowe zaprojektowanie i wykonanie obiektu w technologii prefabrykacji modułowej wraz z infrastrukturą techniczną. Cena oferty Unihouse wynosi około 17.3 mln zł brutto (około 14.1 mln zł netto). Termin realizacji inwestycji wynosi 22 miesiące od dnia podpisania umowy.
+
+MODEL: gpt-5-nano | params: temperature=1.0 | czas: 47.73s | STATUS: OK
+długość: chars=988, lines=2 | tokens: total=11283 (prompt=4325, completion=6958) | throughput: 236.39 tokens/s
+Unibep	Wybór oferty Unihouse w przetargu
+Unibep poinformował, że w dniu 14 listopada 2025 r powziął informację o wyborze najkorzystniejszej oferty przez Gminę Mielno na inwestycję Budowa budynku przedszkola z oddziałem żłobkowym w Mielnie na działce nr 909/7 obręb 0020 Mielno oraz budowa drogi dojazdowej KD.L.03 na działce nr 909/4 obręb 0020 Mielno. Oferta została złożona przez Unihouse. Cena oferty wynosi ok. 17,3 mln zł brutto, czyli ok. 14,1 mln zł netto. Termin realizacji inwestycji wynosi 22 miesiące od podpisania umowy. Projekt umowy przewiduje kary umowne za zwłokę w realizacji przedmiotu umowy oraz zwłokę w usuwaniu wad a także zwłokę skutkującą utratą lub korektą dofinansowania i kara umowna za odstąpienie od umowy z przyczyn leżących po stronie wykonawcy łączna wysokość kar nie może przekroczyć 30% wynagrodzenia brutto. W przypadku braku zasadnych odwołań co do wyboru oferty UNIHOUSE zostanie zawarta umowa, o czym Emitent poinformuje w odrębnym raporcie bieżącym.
+
+=== SUMMARY ===
+models_total: 11
+models_ok: 11
+models_error: 0
+time_min: 1.68s (model=gpt-4.1-nano)
+time_max: 62.55s (model=gpt-5)
+time_avg: 16.56s
+tokens_min: 4452 (model=gpt-4.1-mini)
+tokens_max: 11283 (model=gpt-5-nano)
+tokens_avg: 5514.91

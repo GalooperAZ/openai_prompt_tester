@@ -1,0 +1,223 @@
+MODEL: gpt-4.1 | PLAN: STANDARD (service_tier=default) | params: temperature=0.1 | czas: 10.07s | STATUS: OK
+długość: chars=927, lines=3 | tokens: total=4718 (prompt=4424, completion=294) | throughput: 468.52 tokens/s
+cyber_Folks	Umowa inwestycyjna i udziałowców
+
+Spółka cyber_Folks zawarła umowę inwestycyjną oraz umowę udziałowców z Mikołajem Królem, Damianem Murawskim, fundacjami rodzinnymi MK i DM, Sylius, Bitbag oraz cyber_Pixel, dotyczącą wspólnej inwestycji prowadzonej przez Pixel. W wyniku transakcji cyber_Folks obejmie 79% udziałów w Pixel, a Pixel nabędzie 100% akcji PrestaShop, 100% udziałów w Bitbag oraz 100% udziałów Sylius. Wkład cyber_Folks w Pixel wyniesie łącznie 56 mln euro, z czego 38,3 mln euro za 54% nowych udziałów oraz 17,7 mln euro za kolejne 25% udziałów, przy czym część inwestycji może być zrealizowana w formie pożyczki konwertowanej na udziały. Realizacja transakcji nabycia PrestaShop przez Pixel uzależniona jest od uzyskania zgody Prezesa UOKiK na koncentrację. Zawarta umowa udziałowców reguluje zasady ładu korporacyjnego w Pixel, współpracy między spółkami oraz ograniczenia w rozporządzaniu udziałami.
+
+MODEL: gpt-4.1 | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=142, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Invalid service_tier argument', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-4.1 | PLAN: BATCH (service_tier=priority) | params: temperature=0.1 | czas: 2.82s | STATUS: OK
+długość: chars=872, lines=3 | tokens: total=4699 (prompt=4424, completion=275) | throughput: 1666.31 tokens/s
+cyber_Folks	Umowa inwestycyjna i udziałowców
+
+Spółka cyber_Folks zawarła umowę inwestycyjną oraz umowę udziałowców z Mikołajem Królem, Damianem Murawskim, fundacjami rodzinnymi MK i DM, Sylius, Bitbag oraz cyber_Pixel. Przedmiotem umowy jest określenie zasad współpracy przy wspólnej inwestycji prowadzonej przez Pixel, w ramach której cyber_Folks obejmie łącznie 79% udziałów w Pixel w zamian za wkład pieniężny o łącznej wartości 56 mln euro. Fundacje rodzinne MK i DM obejmą po 10,5% udziałów w Pixel w zamian za wkład rzeczowy w postaci udziałów w Sylius i Bitbag. Pixel nabędzie 100% akcji PrestaShop, 100% udziałów Sylius oraz 100% udziałów w Bitbag. Realizacja transakcji wymaga zgody Prezesa UOKiK na koncentrację. Zawarta została także umowa wspólników regulująca zasady ładu korporacyjnego w Pixel oraz współpracy między cyber_Folks, Sylius, Bitbag i PrestaShop.
+
+MODEL: gpt-4.1-mini | PLAN: STANDARD (service_tier=default) | params: temperature=0.1 | czas: 4.19s | STATUS: OK
+długość: chars=724, lines=2 | tokens: total=4659 (prompt=4424, completion=235) | throughput: 1111.93 tokens/s
+Cyber_Folks	Zawarcie umowy inwestycyjnej i udziałowców  
+Cyber_Folks zawarła umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, fundacjami rodzinnymi MK i DM, Sylius, Bitbag oraz cyber_Pixel dotyczącą współpracy przy inwestycji w Pixel. Spółka obejmie 79% udziałów w Pixel za wkład pieniężny 56 mln euro, a fundacje po 10,5% udziałów za wkład rzeczowy w Sylius i Bitbag. Pixel nabędzie 100% akcji PrestaShop oraz 100% udziałów Sylius i Bitbag. Realizacja transakcji wymaga zgody Prezesa UOKiK. Inwestycja w Pixel może nastąpić poprzez wkład pieniężny lub pożyczkę konwertowalną. Strony zawarły także umowę wspólników regulującą zasady ładu korporacyjnego i współpracy oraz zobowiązania zarządcze i zakaz konkurencji.
+
+MODEL: gpt-4.1-mini | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=142, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Invalid service_tier argument', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-4.1-mini | PLAN: BATCH (service_tier=priority) | params: temperature=0.1 | czas: 2.17s | STATUS: OK
+długość: chars=696, lines=2 | tokens: total=4649 (prompt=4424, completion=225) | throughput: 2142.4 tokens/s
+Cyber_Folks	Zawarcie umowy inwestycyjnej i udziałowców  
+Cyber_Folks zawarł umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, fundacjami rodzinnymi MK i DM, Sylius, Bitbag oraz cyber_Pixel dotyczącą współpracy przy inwestycji w Pixel. Spółka obejmie 79% udziałów w Pixel za wkład pieniężny 56 mln euro, a fundacje po 10,5% udziałów za wkład rzeczowy w Sylius i Bitbag. Pixel nabędzie 100% akcji PrestaShop, Sylius i Bitbag. Realizacja transakcji wymaga zgody Prezesa UOKiK. Inwestycja w Pixel może nastąpić jako wkład pieniężny lub pożyczka konwertowalna. Strony zawarły także umowę wspólników regulującą zasady ładu korporacyjnego i współpracy oraz zakaz konkurencji dla zarządzających.
+
+MODEL: gpt-4.1-nano | PLAN: STANDARD (service_tier=default) | params: temperature=0.1 | czas: 0.91s | STATUS: OK
+długość: chars=61, lines=1 | tokens: total=4444 (prompt=4424, completion=20) | throughput: 4883.52 tokens/s
+Cyber_Folks		Zawarcie umowy inwestycyjnej i umowy udziałowców
+
+MODEL: gpt-4.1-nano | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=142, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Invalid service_tier argument', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-4.1-nano | PLAN: BATCH (service_tier=priority) | params: temperature=0.1 | czas: 0.56s | STATUS: OK
+długość: chars=61, lines=1 | tokens: total=4444 (prompt=4424, completion=20) | throughput: 7935.71 tokens/s
+Cyber_Folks		Zawarcie umowy inwestycyjnej i umowy udziałowców
+
+MODEL: gpt-4o | PLAN: STANDARD (service_tier=default) | params: temperature=0.1 | czas: 3.01s | STATUS: OK
+długość: chars=741, lines=2 | tokens: total=4664 (prompt=4424, completion=240) | throughput: 1549.5 tokens/s
+cyber_Folks	Umowa inwestycyjna i udziałowców zawarta  
+Spółka cyber_Folks zawarła umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, fundacjami rodzinnymi MK i DM, Sylius, Bitbag oraz cyber_Pixel. Umowa określa zasady współpracy stron w związku ze wspólną inwestycją prowadzoną przez Pixel. W wyniku transakcji cyber_Folks będzie posiadać 79% udziałów w Pixel, a fundacje rodzinne MK i DM po 10,5% udziałów. Pixel nabędzie 100% akcji PrestaShop, Sylius oraz Bitbag. Inwestycja cyber_Folks obejmuje wkład pieniężny w wysokości 38,3 mln euro oraz 17,7 mln euro, które mogą być również udzielone jako pożyczka konwertowalna na udziały. Zawarcie umowy wspólników ustala zasady ładu korporacyjnego w Pixel oraz współpracy między spółkami.
+
+MODEL: gpt-4o | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=142, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Invalid service_tier argument', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-4o | PLAN: BATCH (service_tier=priority) | params: temperature=0.1 | czas: 2.52s | STATUS: OK
+długość: chars=792, lines=2 | tokens: total=4682 (prompt=4424, completion=258) | throughput: 1857.94 tokens/s
+cyber_Folks	Umowa inwestycyjna i udziałowców zawarta
+Spółka cyber_Folks zawarła umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, fundacjami rodzinnymi MK i DM, Sylius, Bitbag oraz cyber_Pixel. Umowa określa zasady współpracy stron w związku ze wspólną inwestycją prowadzoną poprzez Pixel. W wyniku transakcji cyber_Folks będzie posiadać 79% udziałów w Pixel, a fundacje rodzinne MK i DM po 10,5% udziałów. Pixel nabędzie 100% akcji PrestaShop oraz 100% udziałów w Sylius i Bitbag. Inwestycja cyber_Folks w Pixel obejmuje wkład pieniężny w wysokości 38,3 mln euro oraz 17,7 mln euro, z możliwością konwersji na udziały. Zawarcie umowy wspólników ustala zasady ładu korporacyjnego i współpracy między stronami. Transakcja wymaga zgody Prezesa Urzędu Ochrony Konkurencji i Konsumentów.
+
+MODEL: gpt-4o-mini | PLAN: STANDARD (service_tier=default) | params: temperature=0.1 | czas: 4.23s | STATUS: OK
+długość: chars=494, lines=1 | tokens: total=4582 (prompt=4424, completion=158) | throughput: 1083.22 tokens/s
+cyber_Folks	Umowa inwestycyjna oraz umowa udziałowców zawarte 11 grudnia 2025 roku. Zarząd cyber_Folks informuje o zawarciu umowy inwestycyjnej z Mikołajem Królem, Damianem Murawskim oraz innymi podmiotami, której celem jest określenie zasad współpracy w związku z inwestycją w Pixel. Spółka obejmie 79% udziałów w Pixel, a także przewiduje nabycie 100% akcji PrestaShop oraz 100% udziałów w Sylius i Bitbag. Umowa wspólników ustala zasady ładu korporacyjnego oraz współpracy pomiędzy stronami.
+
+MODEL: gpt-4o-mini | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=142, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Invalid service_tier argument', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-4o-mini | PLAN: BATCH (service_tier=priority) | params: temperature=0.1 | czas: 1.95s | STATUS: OK
+długość: chars=742, lines=1 | tokens: total=4672 (prompt=4424, completion=248) | throughput: 2395.9 tokens/s
+cyber_Folks	Umowa inwestycyjna oraz umowa udziałowców zawarta. Zarząd cyber_Folks informuje, że w dniu 11 grudnia 2025 roku spółka zawarła umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, fundacjami rodzinnymi MK i DM oraz spółkami Sylius, Bitbag i cyber_Pixel. Umowa określa zasady współpracy w związku z inwestycją w Pixel, w wyniku której cyber_Folks nabędzie 79% udziałów w Pixel, a fundacje po 10,5%. Pixel ma również nabyć 100% akcji PrestaShop oraz 100% udziałów w Sylius i Bitbag. Zgodnie z umową, inwestycja cyber_Folks może przyjąć formę wkładu pieniężnego lub pożyczki konwertowanej na udziały. Dodatkowo, strony zawarły umowę wspólników, regulującą zasady ładu korporacyjnego w Pixel oraz współpracy z innymi podmiotami.
+
+MODEL: gpt-5 | PLAN: STANDARD (service_tier=default) | params: temperature=1.0 | czas: 80.66s | STATUS: OK
+długość: chars=857, lines=2 | tokens: total=8233 (prompt=4423, completion=3810) | throughput: 102.07 tokens/s
+cyber_Folks	Umowa inwestycyjna i umowa udziałowców
+cyber_Folks zawarła umowę inwestycyjną oraz umowę udziałowców dotyczącą wspólnej inwestycji realizowanej poprzez spółkę Pixel. Po transakcji cyber_Folks będzie mieć 79% udziałów w Pixel, a fundacje FRMK i FRDM po 10,5%. Pixel nabędzie 100% PrestaShop z siedzibą w Paryżu, 100% Sylius oraz 100% Bitbag. cyber_Folks obejmie 54% nowych udziałów za 38.3 mln euro oraz 25% nowych udziałów za 17.7 mln euro, przy czym druga transza może przyjąć formę pożyczki konwertowalnej, jeśli nabycie PrestaShop nastąpi przed zgodą UOKiK. Nabycie PrestaShop wymaga zgody Prezesa UOKiK na koncentrację. Umowa udziałowców określa ład korporacyjny w Pixel, zasady współpracy z Sylius, Bitbag i PrestaShop, ograniczenia w zbywaniu udziałów, obowiązki zarządcze oraz zakaz konkurencji i wejdzie w życie po zamknięciu transakcji.
+
+MODEL: gpt-5 | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: 33.11s | STATUS: OK
+długość: chars=712, lines=2 | tokens: total=9162 (prompt=4423, completion=4739) | throughput: 276.71 tokens/s
+cyber_Folks	Umowa inwestycyjna i wspólników
+Spółka cyber_Folks zawarła 11 grudnia 2025 r. umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi FRMK i FRDM, Sylius, Bitbag oraz Pixel oraz odrębną umowę wspólników. Po zakończeniu transakcji cyber_Folks będzie mieć 79% udziałów w Pixel, a FRMK i FRDM po 10,5%. Pixel ma nabyć 100% akcji Prestashop oraz 100% udziałów w Sylius i Bitbag. cyber_Folks obejmie 54% nowych udziałów w Pixel za 38,3 mln euro i 25% za 17,7 mln euro, przy czym druga transza może przyjąć formę pożyczki konwertowalnej na udziały w zależności od terminu uzyskania zgody UOKiK na koncentrację. Umowa wspólników wejdzie w życie w momencie zamknięcia transakcji.
+
+MODEL: gpt-5 | PLAN: BATCH (service_tier=priority) | params: temperature=1.0 | czas: 29.33s | STATUS: OK
+długość: chars=838, lines=2 | tokens: total=9061 (prompt=4423, completion=4638) | throughput: 308.93 tokens/s
+cyber_Folks	Umowa inwestycyjna i umowa wspólników
+Spółka cyber_Folks zawarła umowę inwestycyjną oraz umowę wspólników w związku z inwestycją realizowaną poprzez spółkę Pixel. Po transakcji cyber_Folks ma posiadać 79% udziałów w Pixelu, a fundacje rodzinne Mikołaja Króla i Damiana Murawskiego (FRMK i FRDM) po 10,5% każda. Pixel nabędzie 100% akcji Prestashop oraz 100% udziałów w spółkach Sylius i Bitbag. cyber_Folks obejmie 54% nowych udziałów w Pixelu za 38,3 mln euro oraz kolejne 25% za 17,7 mln euro, przy czym druga transza może przyjąć formę pożyczki konwertowalnej, jeśli nabycie Prestashop nastąpi przed zgodą UOKiK na koncentrację. Umowa wspólników reguluje ład korporacyjny, zasady współpracy spółek, ograniczenia w zbywaniu udziałów, powierzenie zarządzania Mikołajowi Królowi i Damianowi Murawskiemu oraz zakaz konkurencji.
+
+MODEL: gpt-5.1 | PLAN: STANDARD (service_tier=default) | params: temperature=0.1 | czas: 5.22s | STATUS: OK
+długość: chars=1404, lines=2 | tokens: total=4890 (prompt=4423, completion=467) | throughput: 936.78 tokens/s
+cyber_Folks	Zawarcie umowy inwestycyjnej i udziałowców
+Cyber_Folks zawarł umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi, spółkami Sylius, Bitbag oraz cyber_Pixel, określającą zasady wspólnej inwestycji prowadzonej poprzez cyber_Pixel. W wyniku transakcji cyber_Folks ma posiadać 79% udziałów w cyber_Pixel, fundacja rodzinna Mikołaja Króla 10,5%, a fundacja rodzinna Damiana Murawskiego 10,5%. Cyber_Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu, 100% udziałów w Sylius oraz 100% udziałów w Bitbag. Cyber_Folks obejmie łącznie 79% nowych udziałów w cyber_Pixel w zamian za wkład pieniężny w łącznej kwocie 56.000.000 euro, przy czym część tej inwestycji może zostać zrealizowana w formie pożyczki konwertowalnej na udziały w cyber_Pixel, zależnie od momentu uzyskania zgody Prezesa UOKiK na koncentrację. Fundacje rodzinne Mikołaja Króla i Damiana Murawskiego obejmą po 10,5% udziałów w cyber_Pixel w zamian za wkład niepieniężny w postaci udziałów w Sylius i Bitbag. Strony zawarły także umowę wspólników regulującą ład korporacyjny w cyber_Pixel, zasady współpracy między grupą cyber_Folks a Sylius, Bitbag i PrestaShop, ograniczenia w zbywaniu udziałów w cyber_Pixel oraz zobowiązania Mikołaja Króla i Damiana Murawskiego do zarządzania cyber_Pixel i zakazu konkurencji, która wejdzie w życie po zamknięciu transakcji przewidzianej umową inwestycyjną.
+
+MODEL: gpt-5.1 | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: 11.8s | STATUS: OK
+długość: chars=1406, lines=2 | tokens: total=4890 (prompt=4423, completion=467) | throughput: 414.41 tokens/s
+cyber_Folks	Zawarcie umowy inwestycyjnej
+Cyber_Folks zawarł umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi, spółkami Sylius, Bitbag oraz cyber_Pixel, określającą zasady wspólnej inwestycji prowadzonej poprzez cyber_Pixel. W wyniku transakcji cyber_Folks ma posiadać 79 proc. udziałów w cyber_Pixel, fundacja rodzinna Mikołaja Króla 10,5 proc., a fundacja rodzinna Damiana Murawskiego 10,5 proc. Uzgodniono, że cyber_Pixel nabędzie 100 proc. akcji PrestaShop z siedzibą w Paryżu oraz 100 proc. udziałów w Sylius i Bitbag. Cyber_Folks obejmie łącznie 79 proc. nowych udziałów w cyber_Pixel w zamian za wkład pieniężny w łącznej kwocie 56.000.000 euro, przy czym część tej inwestycji może zostać zrealizowana w formie pożyczki konwertowalnej na udziały w cyber_Pixel, zależnie od momentu uzyskania zgody Prezesa UOKiK na koncentrację. Wkłady niepieniężne fundacji rodzinnych obejmą 60 proc. udziałów w Sylius i 100 proc. udziałów w Bitbag, w zamian za co każda z fundacji obejmie po 10,5 proc. udziałów w cyber_Pixel. Strony zawarły także umowę wspólników regulującą ład korporacyjny w cyber_Pixel, zasady współpracy z Sylius, Bitbag i PrestaShop, ograniczenia w zbywaniu udziałów oraz zobowiązania Mikołaja Króla i Damiana Murawskiego do zarządzania cyber_Pixel wraz z zakazem konkurencji, która wejdzie w życie po zamknięciu transakcji przewidzianej umową inwestycyjną.
+
+MODEL: gpt-5.1 | PLAN: BATCH (service_tier=priority) | params: temperature=0.1 | czas: 3.32s | STATUS: OK
+długość: chars=1404, lines=2 | tokens: total=4890 (prompt=4423, completion=467) | throughput: 1472.89 tokens/s
+cyber_Folks	Umowa inwestycyjna dotycząca Pixel
+Cyber_Folks zawarł umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi, Sylius, Bitbag oraz cyber_Pixel, określającą zasady wspólnej inwestycji prowadzonej poprzez spółkę Pixel. W wyniku transakcji cyber_Folks ma posiadać 79% udziałów w Pixel, fundacja rodzinna Mikołaja Króla 10,5% udziałów, a fundacja rodzinna Damiana Murawskiego 10,5% udziałów. Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu, 100% udziałów w Sylius oraz 100% udziałów w Bitbag. Cyber_Folks obejmie łącznie 79% nowych udziałów w Pixel w zamian za wkład pieniężny w łącznej kwocie 56.000.000 euro, przy czym część inwestycji w wysokości 17.700.000 euro może zostać zrealizowana w formie pożyczki konwertowalnej na udziały w Pixel, zależnie od momentu uzyskania zgody Prezesa UOKiK na koncentrację. Fundacje rodzinne Mikołaja Króla i Damiana Murawskiego obejmą po 10,5% udziałów w Pixel w zamian za wkład niepieniężny w postaci udziałów w Sylius i Bitbag. Strony zawarły także umowę wspólników regulującą ład korporacyjny w Pixel, zasady współpracy między cyber_Folks i jego podmiotami zależnymi a Sylius, Bitbag i PrestaShop, ograniczenia w zbywaniu udziałów w Pixel oraz zobowiązania Mikołaja Króla i Damiana Murawskiego do zarządzania Pixel i zakazu konkurencji, która wejdzie w życie po zamknięciu transakcji przewidzianej umową inwestycyjną.
+
+MODEL: gpt-5.1-chat-latest | PLAN: STANDARD (service_tier=default) | params: temperature=1.0 | czas: 4.23s | STATUS: OK
+długość: chars=867, lines=2 | tokens: total=4825 (prompt=4423, completion=402) | throughput: 1140.66 tokens/s
+cyber_Folks	Umowa inwestycyjna i wspólników
+Cyber_Folks zawarł umowę inwestycyjną dotyczącą wspólnej inwestycji prowadzonej poprzez spółkę Pixel. Spółka ma docelowo posiadać 79 procent udziałów w Pixel, podczas gdy fundacje rodzinne MK i DM mają objąć po 10,5 procent udziałów. Pixel ma nabyć 100 procent akcji PrestaShop oraz 100 procent udziałów w Sylius i Bitbag. Inwestycja Cyber_Folks obejmuje objęcie 54 procent nowych udziałów w Pixel za 38.300.000 euro oraz 25 procent nowych udziałów za 17.700.000 euro, przy czym ta druga część może zostać zrealizowana jako pożyczka konwertowalna w zależności od momentu uzyskania zgody antymonopolowej na przejęcie PrestaShop. Strony zawarły także umowę wspólników regulującą ład korporacyjny w Pixel, współpracę z Sylius, Bitbag i PrestaShop, zasady obrotu udziałami oraz zobowiązania MK i DM dotyczące zarządzania Pixel.
+
+MODEL: gpt-5.1-chat-latest | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=150, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Flex is not available for this model.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-5.1-chat-latest | PLAN: BATCH (service_tier=priority) | params: temperature=1.0 | czas: 4.12s | STATUS: OK
+długość: chars=792, lines=2 | tokens: total=4684 (prompt=4423, completion=261) | throughput: 1136.89 tokens/s
+Cyber_Folks	Inwestycja w Pixel i przejęcia
+Cyber_Folks zawarł umowę inwestycyjną oraz umowę wspólników z udziałowcami Pixel, Sylius i Bitbag, określając zasady wspólnej inwestycji realizowanej poprzez Pixel. Spółka obejmie 79 procent udziałów w Pixel, wnosząc 38.3 mln euro oraz 17.7 mln euro w formie wkładu pieniężnego lub pożyczki konwertowalnej, zależnie od momentu uzyskania zgody antymonopolowej na przejęcie PrestaShop. Fundacje FRMK i FRDM obejmą po 10.5 procent udziałów w Pixel w zamian za wkład rzeczowy w postaci udziałów Sylius i Bitbag. Pixel nabędzie 100 procent akcji PrestaShop oraz 100 procent udziałów Sylius i Bitbag. Umowa wspólników reguluje ład korporacyjny w Pixel, współpracę z Sylius, Bitbag i PrestaShop, zasady obrotu udziałami oraz zobowiązania zarządcze MK i DM.
+
+MODEL: gpt-5-chat-latest | PLAN: STANDARD (service_tier=default) | params: temperature=0.1 | czas: 2.23s | STATUS: OK
+długość: chars=681, lines=2 | tokens: total=4658 (prompt=4424, completion=234) | throughput: 2088.79 tokens/s
+cyber_Folks	Umowa inwestycyjna i udziałowców  
+cyber_Folks zawarł umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi, spółkami Sylius, Bitbag oraz cyber_Pixel. Na mocy umowy spółka obejmie 79% udziałów w cyber_Pixel, który nabędzie 100% akcji PrestaShop z siedzibą w Paryżu oraz 100% udziałów w Sylius i Bitbag. Wkład cyber_Folks wyniesie łącznie 56 mln euro, z czego 38.3 mln euro i 17.7 mln euro zostanie wniesione w zamian za nowe udziały lub w formie pożyczki konwertowalnej w zależności od uzyskania zgody Prezesa UOKiK. Strony podpisały również umowę wspólników określającą zasady ładu korporacyjnego, współpracy i zarządzania w cyber_Pixel.
+
+MODEL: gpt-5-chat-latest | PLAN: FLEX (service_tier=flex) | params: temperature=0.1 | czas: NAs | STATUS: ERROR
+długość: chars=150, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Flex is not available for this model.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-5-chat-latest | PLAN: BATCH (service_tier=priority) | params: temperature=0.1 | czas: 2.31s | STATUS: OK
+długość: chars=788, lines=2 | tokens: total=4680 (prompt=4424, completion=256) | throughput: 2025.97 tokens/s
+cyber_Folks	Umowa inwestycyjna dotycząca Pixel  
+cyber_Folks zawarł umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi, a także spółkami Sylius, Bitbag i cyber_Pixel. Przedmiotem umowy jest wspólna inwestycja realizowana poprzez Pixel, w której cyber_Folks obejmie 79% udziałów. Pixel nabędzie 100% akcji francuskiej spółki PrestaShop oraz 100% udziałów w Sylius i Bitbag. Wkład cyber_Folks wyniesie łącznie 56 mln euro, z czego 38.3 mln euro i 17.7 mln euro zostanie wniesione w dwóch transzach, przy czym druga może przyjąć formę pożyczki konwertowalnej na udziały. Realizacja transakcji wymaga zgody Prezesa UOKiK. Strony zawarły również umowę wspólników określającą zasady ładu korporacyjnego i współpracy w ramach Pixel, Sylius, Bitbag i PrestaShop.
+
+MODEL: gpt-5-mini | PLAN: STANDARD (service_tier=default) | params: temperature=1.0 | czas: 176.52s | STATUS: OK
+długość: chars=1068, lines=2 | tokens: total=6581 (prompt=4423, completion=2158) | throughput: 37.28 tokens/s
+cyber_Folks	Umowa inwestycyjna i wspólników
+cyber_Folks zawarła 11 grudnia 2025 r. umowę inwestycyjną oraz umowę wspólników z Mikołajem Królem, Damianem Murawskim, fundacjami rodzinnymi FRMK i FRDM, Sylius, Bitbag oraz cyber_Pixel. W ramach umowy cyber_Folks obejmie 79% udziałów w Pixel, FRMK 10,5% udziałów i FRDM 10,5% udziałów, a Pixel nabędzie 100% akcji PrestaShop oraz 100% udziałów w Sylius i Bitbag. Inwestycja cyber_Folks przewiduje objęcie 54% nowych udziałów za wkład pieniężny 38,3 mln euro oraz 25% nowych udziałów za wkład pieniężny 17,7 mln euro, przy czym część inwestycji może zostać udzielona w formie pożyczki konwertowalnej na udziały. Przeprowadzenie nabycia PrestaShop wymaga zgody prezesa UOKiK i jeśli nabycie nastąpi przed uzyskaniem zgody, inwestycja w części 17,7 mln euro zostanie udzielona jako pożyczka konwertowalna, a umowa wspólników reguluje zasady ładu korporacyjnego, współpracy, ograniczenia rozporządzania udziałami oraz zobowiązania MK i DM do zarządzania Pixel wraz z zakazem konkurencji obowiązującym od zamknięcia transakcji.
+
+MODEL: gpt-5-mini | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: 33.03s | STATUS: OK
+długość: chars=1107, lines=2 | tokens: total=8313 (prompt=4423, completion=3890) | throughput: 251.68 tokens/s
+cyber_Folks	Umowa inwestycyjna i umowa udziałowców
+Spółka cyber_Folks zawarła 11 grudnia 2025 r. umowę inwestycyjną oraz umowę wspólników z Mikołajem Królem, Damianem Murawskim, fundacjami rodzinnymi FRMK i FRDM, Sylius, Bitbag oraz Pixel dotyczącą wspólnej inwestycji prowadzonej przez Pixel. Zgodnie z umową cyber_Folks będzie posiadać 79% udziałów w Pixel, FRMK 10,5% i FRDM 10,5%, a Pixel ma nabyć 100% akcji PrestaShop oraz 100% udziałów w Sylius i Bitbag. Inwestycja cyber_Folks obejmuje objęcie 54% nowych udziałów za wkład pieniężny 38.3 mln euro oraz 25% nowych udziałów za wkład 17.7 mln euro, przy czym druga część inwestycji może zostać wniesiona w formie pożyczki konwertowalnej, jeżeli nabycie PrestaShop nastąpi przed uzyskaniem zgody antymonopolowej. Przeprowadzenie nabycia PrestaShop przez Pixel wymaga zgody Prezesa UOKiK. Umowa wspólników określa zasady ładu korporacyjnego, współpracy między podmiotami, ograniczenia rozporządzania udziałami oraz zobowiązania Mikołaja Króla i Damiana Murawskiego do zarządzania Pixel i zakaz konkurencji, który wejdzie w życie po zamknięciu transakcji.
+
+MODEL: gpt-5-mini | PLAN: BATCH (service_tier=priority) | params: temperature=1.0 | czas: 20.78s | STATUS: OK
+długość: chars=1257, lines=2 | tokens: total=7078 (prompt=4423, completion=2655) | throughput: 340.62 tokens/s
+cyber_Folks	Umowa inwestycyjna w Pixel
+cyber_Folks zawarła 11 grudnia 2025 r. umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, fundacjami rodzinnymi MK i DM, Sylius, Bitbag oraz Pixel dotyczącą wspólnej inwestycji prowadzonej przez Pixel. Zgodnie z umową cyber_Folks obejmie 79% udziałów w Pixel poprzez objęcie 54% nowych udziałów za wkład pieniężny w wysokości 38,3 mln euro oraz 25% nowych udziałów za wkład pieniężny w wysokości 17,7 mln euro, przy czym druga część inwestycji może zostać udzielona w formie pożyczki konwertowanej na udziały w zależności od terminu nabycia PrestaShop. FRMK i FRDM obejmą po 10,5% udziałów w Pixel w zamian za wkład rzeczowy obejmujący odpowiednio 60% udziałów w Sylius oraz 100% udziałów w Bitbag. Pixel nabędzie 100% akcji PrestaShop oraz 100% udziałów w Sylius i Bitbag, przy czym nabycie PrestaShop wymaga zgody UOKiK, a jeśli przejęcie nastąpi przed uzyskaniem zgody, inwestycja 17,7 mln euro zostanie udzielona jako pożyczka konwertowalna. Strony zawarły także umowę wspólników określającą zasady ładu korporacyjnego, współpracy, ograniczeń rozporządzania udziałami oraz obowiązki zarządcze i zakaz konkurencji dotyczące Mikołaja Króla i Damiana Murawskiego, które wejdą w życie po zamknięciu transakcji.
+
+MODEL: gpt-5-nano | PLAN: STANDARD (service_tier=default) | params: temperature=1.0 | czas: 87.41s | STATUS: OK
+długość: chars=1678, lines=2 | tokens: total=15066 (prompt=4423, completion=10643) | throughput: 172.36 tokens/s
+cyber_Folks	Umowa inwestycyjna i umowy udziałowców
+cyber_Folks informuje, że w dniu 11 grudnia 2025 r. spółka zawarła umowę inwestycyjną z MK DM FRMK FRDM Sylius Bitbag i Pixel. Przedmiotem umowy inwestycyjnej jest ustalenie zasad współpracy w transakcji, w wyniku której cyber_Folks będzie posiadać 79% udziałów w Pixel FRMK 10,5% i FRDM 10,5%. Pixel nabędzie 100% akcji PrestaShop oraz 100% udziałów w Sylius i Bitbag. Zgodnie z umową objęcie udziałów w Pixel nastąpi w ten sposób: cyber_Folks obejmie 54% nowych udziałów w Pixel za wkład 38,3 mln euro oraz 25% nowych udziałów za wkład 17,7 mln euro, inwestycja może nastąpić także w formie pożyczki konwertowalnej. FRMK i FRDM będący jedynymi udziałowcami w Sylius i Bitbag obejmą po 60% udziałów w Sylius i 100% udziałów w Bitbag, każdy z nich za 10,5% udziałów w Pixel. Pixel zobowiązany jest do przeprowadzenia Transakcji FR czyli nabycia 100% akcji PrestaShop zgodnie z dokumentacją dotyczącą Transakcji a realizacja wymaga zgody antymonopolowej na koncentrację wydanej przez Urząd Ochrony Konkurencji i Konsumentów. Jeżeli nabycie akcji PrestaShop nastąpi po wydaniu zgody antymonopolowej inwestycja cyber_Folks w Pixel w wysokości 17,7 mln euro nastąpi w formie wkładu pieniężnego jeśli nastąpi przed wydaniem zgody inwestycja ta nastąpi w formie pożyczki konwertowalnej. W ramach SHA strony ustaliły zasady ładu korporacyjnego w Pixel zasady współpracy z Sylius Bitbag i PrestaShop ograniczenia dyspozycji udziałami oraz zobowiązania MK i DM do zarządzania Pixel oraz klauzulę zakazu konkurencji która wejdzie w życie po zamknięciu Transakcji. SHA zawiera także standardowe postanowienia typowe dla tego rodzaju umów.
+
+MODEL: gpt-5-nano | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: 71.63s | STATUS: OK
+długość: chars=1980, lines=2 | tokens: total=15740 (prompt=4423, completion=11317) | throughput: 219.74 tokens/s
+cyber_Folks	Inwestycyjna umowa i SHA
+cyber_Folks Spółka informuje, że w dniu 11 grudnia 2025 r. zawarła umowę inwestycyjną z Mikołajem Królem Damianem Murawskim fundacją rodzinną MK fundacją rodzinną DM Sylius sp. z o.o. Bitbag sp. z o.o. oraz Pixel której przedmiotem jest określenie zasad współpracy stron w związku ze wspólną inwestycją prowadzoną poprzez Pixel. Przedmiotem Umowy Inwestycyjnej jest określenie zasad współpracy Stron w zakresie przeprowadzenia transakcji w wyniku której Pixel nabędzie 100% akcji PrestaShop Pixel nabędzie 100% udziałów Sylius i 100% udziałów w Bitbag oraz Spółka obejmie 54% nowych udziałów w Pixel w zamian za wkład pieniężny w kwocie 38,3 mln euro oraz 25% nowych udziałów w Pixel w zamian za wkład pieniężny w kwocie 17,7 mln euro przy czym inwestycja Spółki w tym zakresie może również nastąpić w formie udzielenia pożyczki konwertowanej na udziały Pixel o czym mowa poniżej. FRMK oraz FRDM będący jedynymi udziałowcami w spółkach Sylius oraz Bitbag obejmą po 60% udziałów w Sylius i 100% udziałów w Bitbag oraz po 10,5% udziałów w Pixel każdy z nich. Pixel zobowiązany jest do przeprowadzenia transakcji nabycia 100% akcji PrestaShop zgodnie z postanowieniami dokumentacji dotyczącej Transakcji FR a przeprowadzenie Transakcji wymaga zgody Prezesa Urzędu Ochrony Konkurencji i Konsumentów na koncentrację. W zależności od terminu uzyskania Zgody Antymonopolowej inwestycja Emitenta w Pixel w wysokości 17,7 mln euro zostanie wniesiona jako wkład pieniężny w przypadku uzyskania zgody lub jako pożyczka konwertowalna w przypadku braku zgody. Dodatkowo strony zawarły umowę wspólników SHA ustalającą zasady ładu korporacyjnego w Pixel oraz zasady współpracy pomiędzy Spółką i jej podmiotami zależnymi a Sylius Bitbag i PrestaShop oraz zakaz konkurencji dotyczący MK i DM który wejdzie w życie z chwilą przeprowadzenia wszystkich czynności zamknięcia Transakcji. W pozostałym zakresie SHA zawiera postanowienia typowe dla tego rodzaju umów.
+
+MODEL: gpt-5-nano | PLAN: BATCH (service_tier=priority) | params: temperature=1.0 | czas: 70.18s | STATUS: OK
+długość: chars=1914, lines=2 | tokens: total=12793 (prompt=4423, completion=8370) | throughput: 182.29 tokens/s
+cyber_Folks	Umowa inwestycyjna i umowa udziałowców
+cyber_Folks informuje, że w dniu 11 grudnia 2025 r. Spółka zawarła umowę inwestycyjną z MK, DM, FRMK, FRDM, Sylius, Bitbag oraz Pixel, w ramach wspólnej inwestycji prowadzonej poprzez Pixel. Przedmiot Umowy Inwestycyjnej obejmuje zasady współpracy Stron w transakcji, w wyniku której Pixel nabędzie 100% udziałów w PrestaShop oraz 100% udziałów w Sylius i Bitbag, a Spółka będzie posiadać 79% udziałów w Pixel, FRMK 10,5%, FRDM 10,5%. Zgodnie z Umową Inwestycyjną objęcie udziałów w Pixel nastąpi w sposób: Spółka obejmie 54% nowych udziałów w zamian za wkład pieniężny w kwocie 38,3 mln euro oraz 25% nowych udziałów w zamian za wkład pieniężny w kwocie 17,7 mln euro, przy czym inwestycja Spółki może również nastąpić w formie udzielenia pożyczki konwertowalnej na udziały Pixel. FRMK oraz FRDM, będący jedynymi udziałowcami w Sylius i Bitbag, obejmą po 60% udziałów w Sylius i 100% udziałów w Bitbag w zamian za 10,5% udziałów w Pixel. Pixel zobowiązany jest do przeprowadzenia Transakcji nabycia 100% akcji PrestaShop zgodnie z dokumentacją dotyczącą Transakcji FR, a do uzyskania Zgody Antymonopolowej konieczna jest decyzja Prezesa Urzędu Ochrony Konkurencji i Konsumentów. W przypadku gdy nabycie akcji PrestaShop nastąpi po wydaniu Zgody Antymonopolowej, inwestycja Spółki w Pixel w kwocie 17,7 mln euro nastąpi w formie wkładu pieniężnego w zamian za objęcie udziałów, natomiast jeżeli nabycie nastąpi przed wydaniem zgody, inwestycja zostanie wprowadzona w formie pożyczki konwertowalnej. Ponadto Strony zawarły umowę wspólników SHA określającą zasady ładu korporacyjnego w Pixel oraz zasady współpracy z podmiotami zależnymi Spółki a także ograniczenia w rozporządzaniu udziałami i zakaz konkurencji dotyczący MK i DM, która wejdzie w życie z chwilą zamknięcia Transakcji. W pozostałym zakresie SHA zawiera standardowe postanowienia dla tego typu umów.
+
+MODEL: gpt-5.2-chat-latest | PLAN: STANDARD (service_tier=default) | params: temperature=1.0 | czas: 4.89s | STATUS: OK
+długość: chars=833, lines=2 | tokens: total=4766 (prompt=4423, completion=343) | throughput: 974.64 tokens/s
+cyber_Folks	Inwestycja i umowa udziałowców
+cyber_Folks zawarł 11 grudnia 2025 r. umowę inwestycyjną oraz umowę udziałowców dotyczącą wspólnej inwestycji realizowanej poprzez spółkę Pixel. W wyniku transakcji cyber_Folks będzie posiadać 79% udziałów w Pixel, a fundacje rodzinne Mikołaja Króla i Damiana Murawskiego po 10.5%. Pixel nabędzie 100% akcji PrestaShop z siedzibą w Paryżu oraz 100% udziałów w spółkach Sylius i Bitbag. Inwestycja cyber_Folks obejmuje objęcie udziałów w Pixel za łączną kwotę 56.0 mln euro, przy czym część inwestycji może zostać zrealizowana w formie pożyczki konwertowalnej w zależności od terminu uzyskania zgody UOKiK na koncentrację. Umowa udziałowców reguluje zasady ładu korporacyjnego Pixel, współpracę operacyjną, ograniczenia w obrocie udziałami oraz zobowiązania menedżerskie i zakaz konkurencji.
+
+MODEL: gpt-5.2-chat-latest | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: NAs | STATUS: ERROR
+długość: chars=150, lines=1 | tokens: total=None (prompt=None, completion=None) | throughput: NA
+Error: Error code: 400 - {'error': {'message': 'Flex is not available for this model.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+MODEL: gpt-5.2-chat-latest | PLAN: BATCH (service_tier=priority) | params: temperature=1.0 | czas: 4.64s | STATUS: OK
+długość: chars=886, lines=2 | tokens: total=4783 (prompt=4423, completion=360) | throughput: 1030.82 tokens/s
+cyber_Folks	Umowa inwestycyjna i udziałowców
+cyber_Folks zawarł umowę inwestycyjną z dotychczasowymi właścicielami Sylius i Bitbag oraz z cyber_Pixel, określającą zasady wspólnej inwestycji realizowanej poprzez Pixel. Zgodnie z umową cyber_Folks obejmie łącznie 79% udziałów w Pixel, a pozostałe 21% przypadnie fundacjom rodzinnym powiązanym z menedżerami zaangażowanymi w projekt. Inwestycja cyber_Folks obejmuje wkład pieniężny w wysokości łącznie 56.0 mln euro, przy czym część środków może zostać wniesiona w formie pożyczki konwertowalnej w zależności od momentu uzyskania zgody antymonopolowej. Pixel nabędzie 100% akcji PrestaShop z siedzibą w Paryżu oraz 100% udziałów w Sylius i Bitbag. Równocześnie strony zawarły umowę udziałowców regulującą ład korporacyjny, zasady współpracy operacyjnej, ograniczenia w zbywaniu udziałów oraz zobowiązania menedżerskie i zakaz konkurencji.
+
+MODEL: gpt-5.2 | PLAN: STANDARD (service_tier=default) | params: temperature=1.0 | czas: 5.76s | STATUS: OK
+długość: chars=1075, lines=2 | tokens: total=4780 (prompt=4423, completion=357) | throughput: 829.86 tokens/s
+cyber_Folks	Umowa inwestycyjna z cyber_Pixel
+cyber_Folks zawarł 11 grudnia 2025 r. umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi oraz ze spółkami Sylius, Bitbag i cyber_Pixel, określającą zasady współpracy przy wspólnej inwestycji realizowanej przez cyber_Pixel. W wyniku transakcji cyber_Folks ma posiadać 79% udziałów w cyber_Pixel, a fundacje rodzinne po 10,5%. cyber_Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu oraz 100% udziałów Sylius i Bitbag. Inwestycja cyber_Folks w cyber_Pixel ma obejmować objęcie 54% nowych udziałów za 38,3 mln euro oraz 25% nowych udziałów za 17,7 mln euro, przy czym druga część może zostać zrealizowana jako pożyczka konwertowalna zależnie od momentu uzyskania zgody UOKiK na koncentrację. Strony zawarły także umowę wspólników regulującą ład korporacyjny w cyber_Pixel, zasady współpracy z Sylius, Bitbag i PrestaShop, ograniczenia w zbywaniu udziałów oraz zobowiązania zarządcze i zakaz konkurencji dla Mikołaja Króla i Damiana Murawskiego, która wejdzie w życie po zamknięciu transakcji.
+
+MODEL: gpt-5.2 | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: 4.66s | STATUS: OK
+długość: chars=1308, lines=2 | tokens: total=4852 (prompt=4423, completion=429) | throughput: 1041.2 tokens/s
+cyber_Folks	Umowa inwestycyjna i udziałowców Pixel
+cyber_Folks zawarł 11 grudnia 2025 r. umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi oraz spółkami Sylius, Bitbag i cyber_Pixel dotyczącą wspólnej inwestycji prowadzonej poprzez cyber_Pixel. Transakcja ma doprowadzić do tego, że cyber_Folks będzie posiadał 79% udziałów w cyber_Pixel, a fundacje rodzinne MK i DM po 10.5% udziałów. cyber_Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu oraz 100% udziałów w Sylius i Bitbag. cyber_Folks ma objąć 54% nowych udziałów w cyber_Pixel za wkład pieniężny 38.3 mln euro oraz 25% nowych udziałów za wkład pieniężny 17.7 mln euro, przy czym ta część inwestycji może zostać zrealizowana jako pożyczka konwertowalna na udziały w zależności od momentu nabycia PrestaShop względem uzyskania zgody UOKiK na koncentrację. Fundacje rodzinne MK i DM mają objąć po 10.5% udziałów w cyber_Pixel w zamian za wkłady rzeczowe obejmujące odpowiednio 60% udziałów w Sylius i 100% udziałów w Bitbag. Strony zawarły także umowę wspólników regulującą ład korporacyjny w cyber_Pixel, zasady współpracy z Sylius, Bitbag i PrestaShop, ograniczenia w rozporządzaniu udziałami oraz zobowiązania MK i DM do zarządzania spółką i zakaz konkurencji, która wejdzie w życie po zamknięciu transakcji.
+
+MODEL: gpt-5.2 | PLAN: BATCH (service_tier=priority) | params: temperature=1.0 | czas: 6.2s | STATUS: OK
+długość: chars=1134, lines=2 | tokens: total=4794 (prompt=4423, completion=371) | throughput: 773.23 tokens/s
+cyber_Folks	Umowa inwestycyjna Pixel
+cyber_Folks zawarł 11 grudnia 2025 r. umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi oraz spółkami Sylius, Bitbag i cyber_Pixel, dotyczącą zasad współpracy przy wspólnej inwestycji realizowanej poprzez cyber_Pixel. Transakcja ma doprowadzić do tego, że cyber_Folks będzie posiadać 79% udziałów w cyber_Pixel, a fundacje rodzinne MK i DM po 10,5% udziałów. Zgodnie z założeniami cyber_Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu oraz po 100% udziałów w Sylius i Bitbag. Inwestycja cyber_Folks w cyber_Pixel obejmuje objęcie 54% nowych udziałów za 38,3 mln euro oraz 25% nowych udziałów za 17,7 mln euro, przy czym druga część może zostać zrealizowana jako pożyczka konwertowalna, zależnie od momentu nabycia PrestaShop względem uzyskania zgody antymonopolowej UOKiK. Strony zawarły także umowę wspólników określającą ład korporacyjny w cyber_Pixel, zasady współpracy z Sylius, Bitbag i PrestaShop, ograniczenia zbywania udziałów oraz zobowiązania MK i DM dotyczące zarządzania i zakazu konkurencji, która ma wejść w życie po zamknięciu transakcji.
+
+MODEL: gpt-5.2-2025-12-11 | PLAN: STANDARD (service_tier=default) | params: temperature=1.0 | czas: 5.38s | STATUS: OK
+długość: chars=1104, lines=2 | tokens: total=4781 (prompt=4423, completion=358) | throughput: 888.66 tokens/s
+cyber_Folks	Umowa inwestycyjna wokół cyber_Pixel
+cyber_Folks zawarł 11 grudnia 2025 r. umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi, Sylius, Bitbag oraz cyber_Pixel, określającą zasady współpracy przy wspólnej inwestycji realizowanej poprzez cyber_Pixel. W wyniku transakcji cyber_Folks ma posiadać 79% udziałów w cyber_Pixel, a fundacje rodzinne MK i DM po 10,5%. cyber_Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu oraz po 100% udziałów Sylius i Bitbag. cyber_Folks obejmie 54% nowych udziałów w cyber_Pixel w zamian za wkład pieniężny 38,3 mln euro oraz 25% nowych udziałów za 17,7 mln euro, przy czym druga część inwestycji może przyjąć formę pożyczki konwertowalnej zależnie od momentu nabycia PrestaShop. Przeprowadzenie transakcji wymaga zgody Prezesa UOKiK na koncentrację. Strony podpisały także umowę wspólników regulującą ład korporacyjny w cyber_Pixel, zasady współpracy operacyjnej, ograniczenia w rozporządzaniu udziałami oraz zobowiązania MK i DM dotyczące zarządzania i zakazu konkurencji, która wejdzie w życie po zamknięciu transakcji.
+
+MODEL: gpt-5.2-2025-12-11 | PLAN: FLEX (service_tier=flex) | params: temperature=1.0 | czas: 4.26s | STATUS: OK
+długość: chars=1064, lines=2 | tokens: total=4775 (prompt=4423, completion=352) | throughput: 1120.89 tokens/s
+cyber_Folks	Umowa inwestycyjna i udziałowców
+cyber_Folks zawarł 11 grudnia 2025 r. umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi oraz podmiotami Sylius, Bitbag i cyber_Pixel, określającą zasady współpracy przy wspólnej inwestycji prowadzonej poprzez cyber_Pixel. W wyniku transakcji cyber_Folks ma posiadać 79% udziałów w cyber_Pixel, a fundacje rodzinne MK i DM po 10,5%. cyber_Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu oraz po 100% udziałów w Sylius i Bitbag. cyber_Folks obejmie łącznie 79% nowych udziałów w cyber_Pixel za wkłady pieniężne 38,3 mln euro oraz 17,7 mln euro, przy czym ta druga część może zostać zrealizowana jako pożyczka konwertowalna na udziały, zależnie od momentu uzyskania zgody UOKiK na koncentrację. Równolegle strony zawarły umowę wspólników regulującą ład korporacyjny w cyber_Pixel, zasady współpracy z Sylius, Bitbag i PrestaShop, ograniczenia zbywania udziałów oraz zobowiązania MK i DM dotyczące zarządzania i zakazu konkurencji, która wejdzie w życie po zamknięciu transakcji.
+
+MODEL: gpt-5.2-2025-12-11 | PLAN: BATCH (service_tier=priority) | params: temperature=1.0 | czas: 4.18s | STATUS: OK
+długość: chars=1118, lines=2 | tokens: total=4790 (prompt=4423, completion=367) | throughput: 1145.93 tokens/s
+cyber_Folks	Umowa inwestycyjna wokół cyber_Pixel
+cyber_Folks zawarł 11 grudnia 2025 r. umowę inwestycyjną z Mikołajem Królem, Damianem Murawskim, ich fundacjami rodzinnymi oraz spółkami Sylius, Bitbag i cyber_Pixel, określającą zasady współpracy przy wspólnej inwestycji realizowanej poprzez cyber_Pixel. W wyniku planowanej transakcji cyber_Folks ma posiadać 79% udziałów w cyber_Pixel, a fundacje rodzinne po 10,5%. cyber_Pixel ma nabyć 100% akcji PrestaShop z siedzibą w Paryżu oraz po 100% udziałów w Sylius i Bitbag. Inwestycja cyber_Folks w cyber_Pixel obejmuje objęcie 54% nowych udziałów za 38,3 mln euro oraz 25% nowych udziałów za 17,7 mln euro, przy czym druga część może zostać zrealizowana jako pożyczka konwertowalna, zależnie od terminu nabycia PrestaShop względem uzyskania zgody UOKiK na koncentrację. Strony zawarły także umowę wspólników regulującą ład korporacyjny w cyber_Pixel, zasady współpracy z Sylius, Bitbag i PrestaShop, ograniczenia zbywania udziałów oraz zobowiązania zarządcze i zakaz konkurencji dla Mikołaja Króla i Damiana Murawskiego, która ma wejść w życie po zamknięciu transakcji.
+
+=== SUMMARY ===
+models_total: 42
+models_ok: 34
+models_error: 8
+time_min: 0.56s (model=gpt-4.1-nano, plan=BATCH)
+time_max: 176.52s (model=gpt-5-mini, plan=STANDARD)
+time_avg: 20.83s
+tokens_min: 4444 (model=gpt-4.1-nano, plan=STANDARD)
+tokens_max: 15740 (model=gpt-5-nano, plan=FLEX)
+tokens_avg: 6178.76
+plans_summary:
+  - BATCH: total=14, ok=14, error=0
+  - FLEX: total=14, ok=6, error=8
+  - STANDARD: total=14, ok=14, error=0
+error_models:
+  - model=gpt-4.1, plan=FLEX
+  - model=gpt-4.1-mini, plan=FLEX
+  - model=gpt-4.1-nano, plan=FLEX
+  - model=gpt-4o, plan=FLEX
+  - model=gpt-4o-mini, plan=FLEX
+  - model=gpt-5.1-chat-latest, plan=FLEX
+  - model=gpt-5-chat-latest, plan=FLEX
+  - model=gpt-5.2-chat-latest, plan=FLEX

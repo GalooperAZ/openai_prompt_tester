@@ -53,7 +53,14 @@ def _compute_basic_stats(result: Dict[str, Any]) -> Dict[str, Any]:
 def save_text_report(
     results: List[Dict[str, Any]], input_path: str, output_dir: Path
 ) -> Path:
-    """Zapisuje czytelny raport .txt: blok na model + sekcja podsumowania na końcu."""
+    """
+    Zapisuje czytelny raport .txt: blok na model/plan + sekcja podsumowania na końcu.
+
+    Rozszerzone o:
+    - rozróżnienie planu rozliczeniowego (STANDARD / FLEX / BATCH),
+    - jawne pokazywanie service_tier,
+    - osobny status i ewentualny błąd dla każdego planu.
+    """
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     base_name = Path(input_path).stem
@@ -72,6 +79,8 @@ def save_text_report(
         total_tokens = r.get("total_tokens")
         prompt_tokens = r.get("prompt_tokens")
         completion_tokens = r.get("completion_tokens")
+        billing_plan = r.get("billing_plan", "UNKNOWN")
+        service_tier = r.get("service_tier", "NA")
 
         # Wykrywanie błędu
         response = r.get("response") or ""
@@ -91,7 +100,8 @@ def save_text_report(
 
         # Nagłówek 1
         header_1 = (
-            f"MODEL: {model} | params: temperature={temp if temp is not None else 'NA'} | "
+            f"MODEL: {model} | PLAN: {billing_plan} (service_tier={service_tier}) | "
+            f"params: temperature={temp if temp is not None else 'NA'} | "
             f"czas: {time_s if time_s is not None else 'NA'}s | {status}"
         )
 
@@ -113,7 +123,7 @@ def save_text_report(
         lines.append(header_1)
         lines.append(header_2)
         lines.append(response)
-        lines.append("")  # pusty akapit między modelami
+        lines.append("")  # pusty akapit między modelami/planami
 
         if is_error:
             error_results.append(r)
@@ -142,8 +152,14 @@ def save_text_report(
             avg_time = round(sum(times) / len(times), 2)
             fastest = min(ok_results, key=lambda x: x["time_s"])
             slowest = max(ok_results, key=lambda x: x["time_s"])
-            lines.append(f"time_min: {min_time}s (model={fastest.get('model')})")
-            lines.append(f"time_max: {max_time}s (model={slowest.get('model')})")
+            lines.append(
+                f"time_min: {min_time}s (model={fastest.get('model')}, "
+                f"plan={fastest.get('billing_plan')})"
+            )
+            lines.append(
+                f"time_max: {max_time}s (model={slowest.get('model')}, "
+                f"plan={slowest.get('billing_plan')})"
+            )
             lines.append(f"time_avg: {avg_time}s")
 
         if tokens:
@@ -153,17 +169,47 @@ def save_text_report(
             least_tokens = min(ok_results, key=lambda x: x["total_tokens"] or 0)
             most_tokens = max(ok_results, key=lambda x: x["total_tokens"] or 0)
             lines.append(
-                f"tokens_min: {min_tokens} (model={least_tokens.get('model')})"
+                f"tokens_min: {min_tokens} (model={least_tokens.get('model')}, "
+                f"plan={least_tokens.get('billing_plan')})"
             )
             lines.append(
-                f"tokens_max: {max_tokens} (model={most_tokens.get('model')})"
+                f"tokens_max: {max_tokens} (model={most_tokens.get('model')}, "
+                f"plan={most_tokens.get('billing_plan')})"
             )
             lines.append(f"tokens_avg: {avg_tokens}")
+
+    # Podsumowanie per plan rozliczeniowy
+    plans = {}
+    for r in results:
+        plan = r.get("billing_plan", "UNKNOWN")
+        if plan not in plans:
+            plans[plan] = {"total": 0, "ok": 0, "error": 0}
+        plans[plan]["total"] += 1
+
+    for r in ok_results:
+        plan = r.get("billing_plan", "UNKNOWN")
+        plans.setdefault(plan, {"total": 0, "ok": 0, "error": 0})
+        plans[plan]["ok"] += 1
+
+    for r in error_results:
+        plan = r.get("billing_plan", "UNKNOWN")
+        plans.setdefault(plan, {"total": 0, "ok": 0, "error": 0})
+        plans[plan]["error"] += 1
+
+    if plans:
+        lines.append("plans_summary:")
+        for plan, stats in sorted(plans.items()):
+            lines.append(
+                f"  - {plan}: total={stats['total']}, ok={stats['ok']}, error={stats['error']}"
+            )
 
     if error_results:
         lines.append("error_models:")
         for r in error_results:
-            lines.append(f"  - {r.get('model', 'UNKNOWN')}")
+            lines.append(
+                f"  - model={r.get('model', 'UNKNOWN')}, "
+                f"plan={r.get('billing_plan', 'UNKNOWN')}"
+            )
 
     out_path.write_text("\n".join(lines), encoding="utf-8")
     print(f"✅ Raport zapisano do: {out_path}")

@@ -1,0 +1,65 @@
+MODEL: gpt-4.1 | params: temperature=0.1 | czas: 3.2s | STATUS: OK
+długość: chars=784, lines=2 | tokens: total=4809 (prompt=4583, completion=226) | throughput: 1502.81 tokens/s
+Photon energy	Zgłoszenie sporu z Czechami  
+Photon Energy poinformowała, że jako część grupy inwestorów złożyła 6 listopada 2024 roku zawiadomienie o sporze wobec Republiki Czeskiej. Spór dotyczy naruszenia przez Czechy zobowiązań wynikających z Traktatu Karty Energetycznej oraz umowy o wzajemnej ochronie inwestycji, w związku z planowanymi zmianami i ograniczeniem wsparcia państwa dla projektów fotowoltaicznych. Photon Energy oraz inni inwestorzy wskazują, że zmiany te prowadzą do istotnego obniżenia przychodów i wartości inwestycji, a także naruszają zasadę równego i sprawiedliwego traktowania oraz zakaz wywłaszczenia. Inwestorzy domagają się odszkodowania za poniesione i przyszłe straty oraz zaprosili stronę czeską do podjęcia rozmów w celu polubownego rozwiązania sporu.
+
+MODEL: gpt-4.1-mini | params: temperature=0.1 | czas: 4.21s | STATUS: OK
+długość: chars=742, lines=2 | tokens: total=4805 (prompt=4583, completion=222) | throughput: 1141.33 tokens/s
+Photon Energy	Notyfikacja sporu z państwem czeskim dotycząca wsparcia fotowoltaiki  
+Photon Energy informuje, że 6 listopada 2024 roku jako grupa inwestorów złożyła notyfikację sporu z państwem czeskim w związku z naruszeniem przez Czechy zobowiązań wynikających z Traktatu o Karcie Energetycznej oraz umowy inwestycyjnej ze Szwajcarią. Spór dotyczy planowanych istotnych zmian i redukcji państwowego wsparcia dla projektów fotowoltaicznych w Czechach, które znacząco obniżą przychody i wartość inwestycji. Inwestorzy wskazują na naruszenie zasad uczciwego i równego traktowania oraz zakazu nielegalnej nacjonalizacji, co skutkuje roszczeniami o odszkodowanie. Czechy zostały poproszone o podjęcie rozmów w celu polubownego rozwiązania sporu.
+
+MODEL: gpt-4.1-nano | params: temperature=0.1 | czas: 0.67s | STATUS: OK
+długość: chars=226, lines=1 | tokens: total=4642 (prompt=4583, completion=59) | throughput: 6928.36 tokens/s
+Photon Energy N.V.	Informuje o złożeniu zawiadomienia o sporze z Czechami w związku z naruszeniem zobowiązań wynikających z Energy Charter Treaty i umowy BIT dotyczących zmian wsparcia dla projektów fotowoltaicznych w Czechach
+
+MODEL: gpt-4o | params: temperature=0.1 | czas: 5.1s | STATUS: OK
+długość: chars=606, lines=3 | tokens: total=4768 (prompt=4583, completion=185) | throughput: 934.9 tokens/s
+Photon Energy N.V.	Spór z państwem czeskim
+
+Photon Energy N.V. poinformowała, że jako część grupy inwestorów złożyła 6 listopada 2024 roku zawiadomienie o sporze z państwem czeskim. Spór wynika z naruszeń przez Czechy zobowiązań wynikających z Traktatu Karty Energetycznej oraz umowy między Czechosłowacją a Szwajcarią dotyczącej ochrony inwestycji. Zmiany w systemie wsparcia dla projektów fotowoltaicznych w Czechach mogą znacząco obniżyć przychody inwestorów i wartość ich inwestycji. Photon Energy N.V. oraz inni inwestorzy oczekują od Czech rekompensaty za poniesione straty i ekonomiczne niekorzyści.
+
+MODEL: gpt-4o-mini | params: temperature=0.1 | czas: 4.29s | STATUS: OK
+długość: chars=702, lines=1 | tokens: total=4795 (prompt=4583, completion=212) | throughput: 1117.72 tokens/s
+Photon Energy N.V.	Zgłoszenie sporu z Czechami przez inwestorów. Spółka Photon Energy N.V. informuje, że w dniu 6 listopada 2024 roku złożyła zawiadomienie o sporze, które wynika z naruszeń przez Czechy zobowiązań wynikających z Traktatu Karty Energetycznej oraz umowy o ochronie inwestycji. Inwestorzy, którzy podpisali to zawiadomienie, zainwestowali w projekty fotowoltaiczne w Czechach i ich interesy stanowią inwestycję w rozumieniu ECT. Czechy wprowadziły zmiany w systemie wsparcia dla projektów PV, co prowadzi do znacznego obniżenia przychodów i wartości inwestycji. Inwestorzy oczekują od Czech rekompensaty za poniesione straty oraz zapraszają do rozmów w celu polubownego rozwiązania sporu.
+
+MODEL: gpt-5 | params: temperature=1.0 | czas: 18.35s | STATUS: OK
+długość: chars=1130, lines=2 | tokens: total=6619 (prompt=4582, completion=2037) | throughput: 360.71 tokens/s
+Photon Energy	Spór inwestycyjny z Czechami
+Photon Energy poinformowała, że jako część grupy inwestorów 6 listopada 2024 złożyła do władz Czech zawiadomienie o sporze w związku z planowanymi zmianami i ograniczeniami wsparcia dla projektów fotowoltaicznych. Inwestorzy zarzucają Republice Czeskiej naruszenie postanowień Traktatu Karty Energetycznej oraz bilateralnej umowy inwestycyjnej między Czeską i Słowacką Republiką Federalną a Konfederacją Szwajcarską, w tym obowiązku zapewnienia uczciwego i sprawiedliwego traktowania oraz zakazu wywłaszczenia pośredniego. Zmieniany reżim ma m.in. usuwać wsparcie przy ujemnych cenach energii, obniżać przedział IRR do 6,3–8,4% z wprowadzeniem indywidualnych kontroli oraz przeliczać IRR przy założeniu żywotności dłuższej o 10–20 lat. Spółka wskazuje, że wcześniejsze regulacje przewidywały 20-letnie wsparcie dla instalacji uruchomionych w latach 2009–2010, a w 2021 r. ustalono przedział IRR 8,4–10,6% i określono 8,4% dla PV. Inwestorzy zapowiadają dochodzenie pełnego odszkodowania za poniesione i przyszłe straty oraz proponują podjęcie rozmów w celu polubownego rozwiązania sporu.
+
+MODEL: gpt-5.1 | params: temperature=0.1 | czas: 5.93s | STATUS: OK
+długość: chars=1116, lines=2 | tokens: total=4923 (prompt=4582, completion=341) | throughput: 830.19 tokens/s
+Photon Energy N.V.	Wszczęcie sporu inwestycyjnego z Czechami
+Photon Energy N.V. poinformowała, że jako część grupy inwestorów 6 listopada 2024 roku złożyła do Republiki Czeskiej zawiadomienie o sporze dotyczące naruszenia zobowiązań tego państwa wynikających z Traktatu Karty Energetycznej oraz umowy o popieraniu i wzajemnej ochronie inwestycji między Czechosłowacją a Konfederacją Szwajcarską. Spór dotyczy planowanych istotnych zmian i ograniczeń systemu wsparcia dla projektów fotowoltaicznych w Czechach, w tym obniżenia przedziału wewnętrznej stopy zwrotu, wprowadzenia indywidualnych kontroli IRR, usunięcia wsparcia w okresach ujemnych cen energii oraz wydłużenia założonego okresu życia instalacji. Zdaniem inwestorów działania te naruszają zasady uczciwego i sprawiedliwego traktowania oraz zakaz wywłaszczenia pośredniego, prowadząc do znaczącego spadku przychodów i wartości inwestycji w projekty PV z lat 2009–2010. Inwestorzy zamierzają domagać się od Republiki Czeskiej pełnego odszkodowania za poniesione i przyszłe straty oraz wezwali państwo do podjęcia rozmów w celu polubownego rozwiązania sporu.
+
+MODEL: gpt-5.1-chat-latest | params: temperature=1.0 | czas: 28.36s | STATUS: OK
+długość: chars=607, lines=2 | tokens: total=4892 (prompt=4582, completion=310) | throughput: 172.5 tokens/s
+Photon Energy	Spór inwestycyjny z Czechami
+Photon Energy poinformowała o złożeniu zawiadomienia o sporze wobec Czech w związku z planowanymi zmianami systemu wsparcia dla projektów fotowoltaicznych. Spółka wraz z grupą inwestorów zarzuca Czechom naruszenie zobowiązań wynikających z Traktatu Karty Energetycznej oraz umowy o wzajemnej ochronie inwestycji. Inwestorzy wskazują, że proponowane działania prowadzą do istotnej redukcji wsparcia i wartości projektów, naruszając zasady uczciwego traktowania oraz zakaz wywłaszczenia. Spółka oczekuje od Czech podjęcia rozmów w celu polubownego rozwiązania sporu.
+
+MODEL: gpt-5-chat-latest | params: temperature=0.1 | czas: 2.54s | STATUS: OK
+długość: chars=713, lines=2 | tokens: total=4792 (prompt=4583, completion=209) | throughput: 1886.61 tokens/s
+Photon Energy	Spór z rządem Czech dotyczący wsparcia dla projektów fotowoltaicznych  
+Photon Energy poinformowała, że 6 listopada 2024 roku, jako część grupy inwestorów, złożyła do rządu Czech zawiadomienie o sporze. Sprawa dotyczy naruszenia przez Czechy zobowiązań wynikających z Traktatu Karty Energetycznej oraz umowy o wzajemnej ochronie inwestycji ze Szwajcarią. Według spółki planowane zmiany w systemie wsparcia dla projektów fotowoltaicznych, w tym ograniczenie zakresu wsparcia i obniżenie progów rentowności, znacząco obniżą wartość inwestycji. Photon Energy oraz inni inwestorzy oczekują od Czech rekompensaty za poniesione i przyszłe straty oraz zaproponowali możliwość polubownego rozwiązania sporu.
+
+MODEL: gpt-5-mini | params: temperature=1.0 | czas: 24.45s | STATUS: OK
+długość: chars=667, lines=3 | tokens: total=6514 (prompt=4582, completion=1932) | throughput: 266.42 tokens/s
+Photon Energy	Spór z Czechami
+
+Photon Energy poinformowała, że w dniu 6 listopada 2024 r. jako część grupy inwestorów złożyła zawiadomienie o sporze wobec Republiki Czeskiej z powodu naruszeń zobowiązań wynikających z Traktatu Energetycznego (ECT) oraz umowy o ochronie i wzajemnej ochronie inwestycji (BIT) w związku z proponowanymi zmianami ograniczającymi wsparcie państwowe dla projektów fotowoltaicznych. Photon Energy wskazuje, że proponowane zmiany spowodują znaczną redukcję przychodów i wartości inwestycji, inwestorzy będą żądać odszkodowania i zażądali od Republiki Czeskiej informacji, czy zamierza ona podjąć rozmowy w celu polubownego rozwiązania sporu.
+
+MODEL: gpt-5-nano | params: temperature=1.0 | czas: 49.06s | STATUS: OK
+długość: chars=1063, lines=2 | tokens: total=12920 (prompt=4582, completion=8338) | throughput: 263.35 tokens/s
+Photon energy n.v.	Spór z Czechami
+Photon Energy N.V. poinformowała, że w dniu 6 listopada 2024 roku w imieniu grupy inwestorów złożyła zawiadomienie o spór wynikający z naruszeń zobowiązań Republiki Czeskiej pod Energy Charter Treaty oraz umową BIT w związku z planowanymi zmianami i ograniczeniami wsparcia dla projektów fotowoltaicznych. Inwestorzy podpisujący zawiadomienie kwalifikują się jako inwestorzy objęci ECT, a ich inwestycje w PV Projects w Czechach stanowią inwestycje w rozumieniu ECT. Zawiadomienie wskazuje, że Czechy planują zniesienie wsparcia dla PV w okresach negatywnych cen energii, obniżenie zakresu IRR do 6,3-8,4% oraz wprowadzenie indywidualnych kontroli IRR. Te środki mają istotnie obniżyć wsparcie i wartość inwestycji, co wpłynie na rentowność projektów PV. Inwestorzy będą domagać się od Republiki Czeskiej rekompensaty za poniesione straty i będą dążyć do polubownego rozstrzygnięcia poprzez rozmowy. Republika Czeską została poproszona o poinformowanie inwestorów, czy zamierza podjąć rozmowy w celu polubownego rozstrzygnięcia.
+
+=== SUMMARY ===
+models_total: 11
+models_ok: 11
+models_error: 0
+time_min: 0.67s (model=gpt-4.1-nano)
+time_max: 49.06s (model=gpt-5-nano)
+time_avg: 13.29s
+tokens_min: 4642 (model=gpt-4.1-nano)
+tokens_max: 12920 (model=gpt-5-nano)
+tokens_avg: 5861.73

@@ -1,0 +1,66 @@
+MODEL: gpt-4.1 | params: temperature=0.1 | czas: 3.95s | STATUS: OK
+długość: chars=779, lines=3 | tokens: total=4476 (prompt=4220, completion=256) | throughput: 1133.16 tokens/s
+Shoper	Sprzedaż akcji przez czterech akcjonariuszy
+
+Shoper otrzymał zawiadomienie od czterech akcjonariuszy o rozpoczęciu procesu przyspieszonej budowy księgi popytu, którego celem jest sprzedaż do 5.309.801 akcji, stanowiących nie więcej niż 18,9% kapitału zakładowego i ogólnej liczby głosów. W procesie uczestniczą V4C Poland Plus Fund, KFF Holding, K_K Fundacja Rodzinna oraz R_E Fundacja Rodzinna, którzy oferują odpowiednio do 2.206.523, 1.034.426, 1.034.426 i 1.034.426 akcji. Budowa księgi popytu skierowana jest do wybranych inwestorów i może zakończyć się w dowolnym momencie, a warunki transakcji zostaną ogłoszone po jej zamknięciu. Akcjonariusze zobowiązali się do ograniczenia zbywalności pozostałych akcji przez 180 dni od zawarcia transakcji, z pewnymi wyjątkami.
+
+MODEL: gpt-4.1-mini | params: temperature=0.1 | czas: 3.22s | STATUS: OK
+długość: chars=545, lines=2 | tokens: total=4400 (prompt=4220, completion=180) | throughput: 1366.46 tokens/s
+Shoper	Zawiadomienie o sprzedaży akcji przez akcjonariuszy  
+Spółka Shoper otrzymała zawiadomienie od czterech akcjonariuszy o rozpoczęciu procesu przyspieszonej budowy księgi popytu na sprzedaż do 5,3 mln akcji, co stanowi do 18,9% udziału w kapitale zakładowym i głosach. Akcje oferowane są przez V4C, KFF, K_K oraz R_E, a globalnymi współkoordynatorami są mBank, PKO BP oraz Wood & Company. Cena i ostateczna liczba sprzedawanych akcji zostaną podane po zamknięciu księgi popytu, która może zostać zawieszona lub odwołana w dowolnym momencie.
+
+MODEL: gpt-4.1-nano | params: temperature=0.1 | czas: 3.02s | STATUS: OK
+długość: chars=993, lines=3 | tokens: total=4542 (prompt=4220, completion=322) | throughput: 1503.97 tokens/s
+Shoper	Informuje o rozpoczęciu procesu sprzedaży części akcji przez czterech akcjonariuszy w ramach przyspieszonej budowy księgi popytu, obejmującej nie więcej niż 5.309.801 akcji, stanowiących do 18,9% udziału w kapitale i głosach Spółki, z udziałami poszczególnych akcjonariuszy nie przekraczającymi 7,8% dla V4C, 3,7% dla KFF, K_K i R_E.  
+Spółka podkreśla, że akcje nie są przedmiotem przedwstępnej umowy sprzedaży zawartej 29 listopada 2024 r., a budowa księgi popytu może zakończyć się w dowolnym momencie z możliwością zmiany warunków lub odwołania ABB. Akcjonariusze zobowiązali się do 180-dniowego ograniczenia zbywalności posiadanych akcji po ABB, z wyjątkami.  
+Raport zawiera informacje poufne i jest zgodny z przepisami UE, z wyłączeniem dystrybucji w USA, Australii, Kanadzie i Japonii. Akcje nie są zarejestrowane w USA i mogą być oferowane wyłącznie na podstawie zwolnienia z rejestracji. Materiał nie stanowi oferty sprzedaży ani zaproszenia do nabycia papierów wartościowych.
+
+MODEL: gpt-4o | params: temperature=0.1 | czas: 3.98s | STATUS: OK
+długość: chars=758, lines=1 | tokens: total=4454 (prompt=4220, completion=234) | throughput: 1119.1 tokens/s
+Shoper	Sprzedaż akcji przez akcjonariuszy Spółka Shoper poinformowała o rozpoczęciu procesu przyspieszonej budowy księgi popytu, mającego na celu sprzedaż do 5.309.801 akcji, co stanowi maksymalnie 18,9% kapitału zakładowego. Akcje oferowane są przez czterech akcjonariuszy: V4C Poland Plus Fund, KFF Holding, K_K Fundacja Rodzinna oraz R_E Fundacja Rodzinna. Proces skierowany jest do wybranych inwestorów spełniających określone kryteria. Globalnymi Współkoordynatorami oraz Współprowadzącymi Księgę Popytu są mBank, Powszechna Kasa Oszczędności Bank Polski oraz Wood & Company Financial Services. Cena sprzedaży oraz liczba akcji zostaną ogłoszone po zamknięciu księgi popytu. Akcjonariusze zastrzegają sobie prawo do zmiany warunków lub terminów procesu.
+
+MODEL: gpt-4o-mini | params: temperature=0.1 | czas: 8.61s | STATUS: OK
+długość: chars=787, lines=2 | tokens: total=4488 (prompt=4220, completion=268) | throughput: 521.25 tokens/s
+Shoper	Rozpoczęcie procesu sprzedaży akcji przez akcjonariuszy  
+Shoper z siedzibą w Krakowie informuje, że w dniu 2 grudnia 2024 r. wpłynęło do Spółki zawiadomienie od czterech akcjonariuszy, którzy rozpoczną proces przyspieszonej budowy księgi popytu skierowany do wybranych inwestorów. Celem jest sprzedaż nie więcej niż 5.309.801 akcji, co stanowi 18,9% udziału w kapitale zakładowym Spółki. V4C oferuje do sprzedaży 2.206.523 akcji, KFF, K_K oraz R_E po 1.034.426 akcji każda. W związku z ABB, mBank, PKO BP oraz Wood & Company pełnią rolę Globalnych Współkoordynatorów. Rozpoczęcie budowania księgi popytu nastąpi niezwłocznie, a cena sprzedaży oraz liczba akcji zostaną ogłoszone po jej zamknięciu. Akcjonariusze zastrzegają sobie prawo do zmiany warunków ABB w dowolnym momencie.
+
+MODEL: gpt-5 | params: temperature=1.0 | czas: 41.79s | STATUS: OK
+długość: chars=1093, lines=2 | tokens: total=8317 (prompt=4219, completion=4098) | throughput: 199.02 tokens/s
+Shoper	Sprzedaż akcji w ABB
+Shoper otrzymał zawiadomienie od czterech akcjonariuszy o rozpoczęciu przyspieszonej budowy księgi popytu w celu sprzedaży do 5.309.801 akcji, stanowiących do 18,9% kapitału i głosów. V4C Poland Plus Fund zamierza zaoferować do 2.206.523 akcji (do 7,8% kapitału), KFF Holding do 1.034.426 akcji (do 3,7%), K_K Fundacja Rodzinna do 1.034.426 akcji (do 3,7%), a R_E Fundacja Rodzinna do 1.034.426 akcji (do 3,7%). mBank, PKO BP BM oraz Wood & Company pełnią role globalnych współkoordynatorów i współprowadzących księgę popytu. Budowa księgi rozpoczyna się niezwłocznie i może zakończyć się w każdym czasie, a cena oraz ostateczna liczba akcji, w tym podział między sprzedających, zostaną ogłoszone po jej zamknięciu. Akcjonariusze sprzedający mogą zmienić warunki lub terminy ABB, a także je zawiesić lub odwołać. Akcje oferowane w ABB nie są objęte przedwstępną umową sprzedaży. Akcjonariusze sprzedający oraz Modhaus zobowiązali się do 180‑dniowego lock-upu na pozostałe akcje z zastrzeżeniami, w tym na sprzedaż w wykonaniu wcześniej zawartej przedwstępnej umowy.
+
+MODEL: gpt-5.1 | params: temperature=0.1 | czas: 7.54s | STATUS: OK
+długość: chars=1351, lines=2 | tokens: total=4660 (prompt=4219, completion=441) | throughput: 618.04 tokens/s
+Shoper	Rozpoczęcie sprzedaży akcji w ABB
+Shoper poinformował o otrzymaniu zawiadomienia od czterech akcjonariuszy o rozpoczęciu procesu przyspieszonej budowy księgi popytu skierowanego do wybranych inwestorów. W ramach ABB akcjonariusze V4C Poland Plus Fund S.C.A SICAV-FIAR, KFF Holding SCSp, K_K Fundacja Rodzinna oraz R_E Fundacja Rodzinna planują sprzedaż do 5.309.801 akcji Shoper, stanowiących do 18,9% kapitału zakładowego i ogólnej liczby głosów. V4C oferuje do 2.206.523 akcji, a każdy z pozostałych trzech akcjonariuszy do 1.034.426 akcji, co odpowiada odpowiednio do 7,8% oraz do 3,7% udziału w kapitale i głosach. mBank, Powszechna Kasa Oszczędności Bank Polski Oddział Biuro Maklerskie oraz Wood _ Company Financial Services pełnią role globalnych współkoordynatorów i współprowadzących księgę popytu. Sprzedawane akcje nie obejmują akcji objętych przedwstępną umową sprzedaży zawartą 29 listopada 2024 r. z Modhaus oraz cyber_Folks. Budowa księgi popytu rozpoczyna się niezwłocznie, a jej zakończenie może nastąpić w każdym czasie, przy czym cena sprzedaży i ostateczna liczba akcji zostaną podane po zamknięciu księgi. Akcjonariusze sprzedający oraz Modhaus zobowiązali się do ograniczenia zbywalności pozostałych akcji Shoper przez 180 dni od dnia zawarcia transakcji sprzedaży akcji w ramach ABB, z zastrzeżeniem określonych wyjątków.
+
+MODEL: gpt-5.1-chat-latest | params: temperature=1.0 | czas: 3.14s | STATUS: OK
+długość: chars=626, lines=2 | tokens: total=4504 (prompt=4219, completion=285) | throughput: 1434.39 tokens/s
+Shoper	Sprzedaż części akcji w ABB
+Shoper poinformował o rozpoczęciu przez czterech akcjonariuszy procesu przyspieszonej budowy księgi popytu w celu sprzedaży do 5.309.801 akcji stanowiących do 18,9% kapitału. V4C zamierza sprzedać do 2.206.523 akcji czyli do 7,8% kapitału a KFF K_K i R_E po maksymalnie 1.034.426 akcji każda czyli po 3,7% kapitału. Proces jest kierowany do wybranych inwestorów spełniających określone kryteria i może zakończyć się w dowolnym momencie. Cena oraz ostateczna liczba akcji zostaną ogłoszone po zamknięciu księgi popytu. Akcjonariusze zastrzegli możliwość zmiany warunków lub odwołania procesu.
+
+MODEL: gpt-5-chat-latest | params: temperature=0.1 | czas: 2.76s | STATUS: OK
+długość: chars=762, lines=2 | tokens: total=4450 (prompt=4220, completion=230) | throughput: 1612.32 tokens/s
+Shoper	Proces sprzedaży akcji przez akcjonariuszy  
+Shoper poinformował o otrzymaniu zawiadomienia od czterech akcjonariuszy dotyczącego rozpoczęcia procesu przyspieszonej budowy księgi popytu w celu sprzedaży do 5.309.801 akcji, stanowiących do 18,9% kapitału zakładowego i głosów w spółce. W transakcji uczestniczą V4C Poland Plus Fund, KFF Holding, K_K Fundacja Rodzinna oraz R_E Fundacja Rodzinna. Globalnymi współkoordynatorami i współprowadzącymi księgę popytu są mBank, Powszechna Kasa Oszczędności Bank Polski – Biuro Maklerskie oraz Wood & Company Financial Services. Cena sprzedaży i ostateczna liczba akcji zostaną ogłoszone po zakończeniu procesu. Akcjonariusze sprzedający zastrzegli sobie prawo do zmiany warunków, zawieszenia lub odwołania oferty.
+
+MODEL: gpt-5-mini | params: temperature=1.0 | czas: 46.95s | STATUS: OK
+długość: chars=1107, lines=2 | tokens: total=7610 (prompt=4219, completion=3391) | throughput: 162.09 tokens/s
+Shoper	Oferta akcji w ABB
+Shoper informuje, że 2 grudnia 2024 r. do spółki wpłynęło zawiadomienie od czterech akcjonariuszy o rozpoczęciu przyspieszonej budowy księgi popytu (ABB) w celu sprzedaży nie więcej niż 5.309.801 akcji, stanowiących do 18,9% kapitału zakładowego i liczby głosów w spółce. V4C Poland Plus Fund zamierza zaoferować do 2.206.523 akcji (7,8%), KFF Holding do 1.034.426 akcji (3,7%), K_K Fundacja Rodzinna do 1.034.426 akcji (3,7%) oraz R_E Fundacja Rodzinna do 1.034.426 akcji (3,7%). mBank, Powszechna Kasa Oszczędności Bank Polski Biuro Maklerskie oraz Wood & Company Financial Services pełnią role globalnych współkoordynatorów i współprowadzących księgę popytu. Rozpoczęcie budowy księgi popytu nastąpi niezwłocznie, ostateczna liczba oferowanych akcji i cena zostaną ogłoszone po zamknięciu księgi, a akcjonariusze zastrzegają sobie prawo do zmiany warunków, zawieszenia lub odwołania ABB. Akcjonariusze sprzedający oraz Modhaus zobowiązali się do ograniczenia zbywalności pozostałych posiadanych po ABB akcji przez 180 dni od daty transakcji z zastrzeżeniem określonych wyjątków.
+
+MODEL: gpt-5-nano | params: temperature=1.0 | czas: 46.43s | STATUS: OK
+długość: chars=1608, lines=2 | tokens: total=12776 (prompt=4219, completion=8557) | throughput: 275.17 tokens/s
+Shoper	Zawiadomienie o ABB
+Shoper informuje, że w dniu 2 grudnia 2024 r. wpłynęło zawiadomienie od akcjonariuszy Sprzedających o rozpoczęciu ABB skierowanego wyłącznie do wybranych inwestorów spełniających kryteria. Akcje Sprzedawane w ABB będą nie więcej niż 5.309.801 sztuk, co stanowi 18,9% kapitału zakładowego Spółki. O ograniczeniach sprzedaży zastrzeżono sobie łączną liczbę i udział poszczególnych Akcji Sprzedawanych: V4C Poland Plus Fund S.C.A SICAV-FIAR do 2.206.523 akcji (7,8%), KFF Holding SCSp do 1.034.426 akcji (3,7%), K_K Fundacja Rodzinna do 1.034.426 akcji (3,7%), R_E Fundacja Rodzinna do 1.034.426 akcji (3,7%). W ABB Globalnymi Współkoordynatorami oraz Współprowadzącymi Księgę Popytu są mBank S.A. z siedzibą w Warszawie, Oddział Biura Maklerskiego PCKBP w Warszawie oraz Wood _ Company Financial Services, A.S. z siedzibą w Pradze. Zawiadomienie stwierdza, że Akcje Sprzedawane oferowane w ABB nie są przedmiotem wcześniejszej umowy sprzedaży zawartej 29 listopada 2024 r. między Akcjonariuszami Sprzedającymi, Modhaus a cyber_Folks. Rozpoczęcie budowy księgi popytu nastąpi niezwłocznie i może być zakończone w każdym czasie. Cena sprzedaży Akcji Sprzedawanych i łączna liczba Akcji Sprzedawanych zostaną ogłoszone po zamknięciu księgi popytu. Akcjonariusze Sprzedający zastrzegają sobie prawo do zmiany warunków lub terminów ABB oraz do zawieszenia ABB w dowolnym czasie. W związku z ABB zobowiązali się do ograniczenia zbywalności pozostających posiadanych przez nich akcji Spółki przez 180 dni od dnia zawarcia transakcji sprzedaży Akcji Sprzedawanych w ABB, z pewnymi wyjątkami.
+
+=== SUMMARY ===
+models_total: 11
+models_ok: 11
+models_error: 0
+time_min: 2.76s (model=gpt-5-chat-latest)
+time_max: 46.95s (model=gpt-5-mini)
+time_avg: 15.58s
+tokens_min: 4400 (model=gpt-4.1-mini)
+tokens_max: 12776 (model=gpt-5-nano)
+tokens_avg: 5879.73
